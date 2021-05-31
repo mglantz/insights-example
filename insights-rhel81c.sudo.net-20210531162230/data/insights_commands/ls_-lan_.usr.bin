@@ -1,0 +1,7 @@
+total 199132
+-rwxr-xr-x.  1 0  0   270320 Jan 20 17:38 cvtsudoers
+lrwxrwxrwx.  1 0  0       22 Feb  3 16:51 subscription-manager -> /usr/bin/consolehelper
+---s--x--x.  1 0  0   165608 Jan 20 17:38 sudo
+lrwxrwxrwx.  1 0  0        4 Jan 20 17:38 sudoedit -> sudo
+---x--x--x.  1 0  0    63280 Jan 20 17:38 sudoreplay
+lrwxrwxrwx.  1 0  0       24 Nov 19  2019 unversioned-python -> /etc/alternatives/python

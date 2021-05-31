@@ -1,0 +1,2 @@
+rhel_rhel8snap6-swap: 0 2097152 linear 
+rhel_rhel8snap6-root: 0 16769024 linear 

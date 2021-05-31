@@ -1,0 +1,1 @@
+{"name": "insights.specs.Specs.yum_updateinfo", "exec_time": 2.1219253540039062e-05, "errors": [], "results": {"type": "insights.core.spec_factory.CommandOutputProvider", "object": {"rc": null, "cmd": "/usr/bin/yum -C updateinfo list", "args": null, "relative_path": "insights_commands/yum_-C_updateinfo_list"}}, "ser_time": 5.535832643508911}

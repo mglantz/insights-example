@@ -1,0 +1,12 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root          25  0.0  0.0      0     0 ?        S    15:21   0:00 [kauditd]
+root         854  0.0  0.1 150700  2760 ?        S<sl 15:21   0:00 /sbin/auditd
+chrony       905  0.0  0.1 128912  3604 ?        S    15:21   0:00 /usr/sbin/chronyd
+rngd         913  0.0  0.3 233844  6692 ?        Ssl  15:22   0:08 /sbin/rngd -f --fill-watermark=0
+root         953  0.0  1.6 426580 31372 ?        Ssl  15:22   0:01 /usr/libexec/platform-python -Es /usr/sbin/tuned -l -P
+root        1059  0.0  0.5 280156 11068 ?        Ss   15:22   0:00 /usr/sbin/httpd -DFOREGROUND
+apache      1170  0.0  0.4 294028  8324 ?        S    15:22   0:00 /usr/sbin/httpd -DFOREGROUND
+apache      1175  0.0  0.8 1941688 16168 ?       Sl   15:22   0:02 /usr/sbin/httpd -DFOREGROUND
+apache      1176  0.0  0.6 1810560 12084 ?       Sl   15:22   0:02 /usr/sbin/httpd -DFOREGROUND
+apache      1180  0.0  0.6 1810560 12084 ?       Sl   15:22   0:02 /usr/sbin/httpd -DFOREGROUND
+root       29641  0.0  0.0   9184  1036 pts/0    S+   18:22   0:00 grep -F neutron-l3-agen gnocchi-metricd /sbin/rngd swift-proxy-ser nfs-server radosgw pacemaker_remote gnome-shell /usr/sbin/fcoemon --syslog openshift start master controllers ntpd neutron-server auditd rngd COMMAND multipath neutron-dhcp-ag ora_ spausedd heat-engine multipathd elasticsearch pacemakerd tgtd pacemaker-controld pkla-check-auth docker nginx target_completi /opt/perf/bin/midaemon openshift start master api haproxy oracle postgres iscsid catalina.base nova-scheduler docker-runc-current tuned ceilometer-poll setup.sh sap memcached /usr/bin/teamd crmd smbd octavia-worker mongdb clvmd cinder-volume chronyd libvirtd /sbin/multipathd nova-compute snmpd /usr/bin/openshift start master greenplum nova-conductor pmie pmcd cmirrord goferd corosync nfsd openshift start node httpd ovs-vswitchd /usr/bin/openshift start node dlm_controld redis-server

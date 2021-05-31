@@ -1,0 +1,7 @@
+[    0.000000] Linux version 4.18.0-240.22.1.el8_3.x86_64 (mockbuild@x86-vm-07.build.eng.bos.redhat.com) (gcc version 8.3.1 20191121 (Red Hat 8.3.1-5) (GCC)) #1 SMP Thu Mar 25 14:36:04 EDT 2021
+[    0.000000] SMBIOS 2.8 present.
+[    0.001000] FEATURE SPEC_CTRL Present
+[    0.001000] FEATURE IBPB_SUPPORT Present
+[    0.001000] smpboot: CPU 1 Converting physical 0 to logical die 1
+[    0.001033] smp: Brought up 1 node, 2 CPUs
+[    0.159299] EDAC MC: Ver: 3.0.0

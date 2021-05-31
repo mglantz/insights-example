@@ -1,0 +1,1 @@
+{"name": "insights.specs.Specs.ls_lib_firmware", "exec_time": 2.2411346435546875e-05, "errors": [], "results": {"type": "insights.core.spec_factory.CommandOutputProvider", "object": {"rc": null, "cmd": "/bin/ls -lanR /lib/firmware", "args": null, "relative_path": "insights_commands/ls_-lanR_.lib.firmware"}}, "ser_time": 0.027469396591186523}

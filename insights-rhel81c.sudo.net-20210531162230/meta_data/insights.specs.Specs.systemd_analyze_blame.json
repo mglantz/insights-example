@@ -1,0 +1,1 @@
+{"name": "insights.specs.Specs.systemd_analyze_blame", "exec_time": 2.1457672119140625e-05, "errors": [], "results": {"type": "insights.core.spec_factory.CommandOutputProvider", "object": {"rc": null, "cmd": "/bin/systemd-analyze blame", "args": null, "relative_path": "insights_commands/systemd-analyze_blame"}}, "ser_time": 0.05436110496520996}

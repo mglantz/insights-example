@@ -1,0 +1,1 @@
+{"name": "insights.specs.Specs.avc_hash_stats", "exec_time": 2.0503997802734375e-05, "errors": [], "results": {"type": "insights.core.spec_factory.TextFileProvider", "object": {"relative_path": "sys/fs/selinux/avc/hash_stats", "rc": null}}, "ser_time": 0.0022661685943603516}

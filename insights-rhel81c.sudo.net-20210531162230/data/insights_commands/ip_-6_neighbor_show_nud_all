@@ -1,0 +1,4 @@
+ff02::16 dev enp1s0 lladdr 33:33:00:00:00:16 NOARP
+ff02::2 dev enp1s0 lladdr 33:33:00:00:00:02 NOARP
+::1 dev lo lladdr 00:00:00:00:00:00 NOARP
+ff02::1:ff74:b5a3 dev enp1s0 lladdr 33:33:ff:74:b5:a3 NOARP

@@ -1,0 +1,14 @@
+default via 192.168.120.1 dev enp1s0 proto dhcp metric 100 
+192.168.120.0/24 dev enp1s0 proto kernel scope link src 192.168.120.145 metric 100 
+broadcast 127.0.0.0 dev lo table local proto kernel scope link src 127.0.0.1 
+local 127.0.0.0/8 dev lo table local proto kernel scope host src 127.0.0.1 
+local 127.0.0.1 dev lo table local proto kernel scope host src 127.0.0.1 
+broadcast 127.255.255.255 dev lo table local proto kernel scope link src 127.0.0.1 
+broadcast 192.168.120.0 dev enp1s0 table local proto kernel scope link src 192.168.120.145 
+local 192.168.120.145 dev enp1s0 table local proto kernel scope host src 192.168.120.145 
+broadcast 192.168.120.255 dev enp1s0 table local proto kernel scope link src 192.168.120.145 
+::1 dev lo proto kernel metric 256 pref medium
+fe80::/64 dev enp1s0 proto kernel metric 100 pref medium
+local ::1 dev lo table local proto kernel metric 0 pref medium
+local fe80::5054:ff:fe74:b5a3 dev enp1s0 table local proto kernel metric 0 pref medium
+ff00::/8 dev enp1s0 table local metric 256 pref medium

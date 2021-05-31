@@ -1,0 +1,12 @@
+F   UID     PID    PPID PRI  NI    VSZ   RSS WCHAN  STAT TTY        TIME COMMAND
+1     0      25       2  20   0      0     0 -      S    ?          0:00 [kauditd]
+5     0     854       1  16  -4 150700  2760 -      S<sl ?          0:00 /sbin/auditd
+5   991     905       1  20   0 128912  3604 -      S    ?          0:00 /usr/sbin/chronyd
+4   987     913       1  20   0 233844  6692 x64_sy Ssl  ?          0:08 /sbin/rngd -f --fill-watermark=0
+4     0     953       1  20   0 426580 31372 -      Ssl  ?          0:01 /usr/libexec/platform-python -Es /usr/sbin/tuned -l -P
+4     0    1059       1  20   0 280156 11068 -      Ss   ?          0:00 /usr/sbin/httpd -DFOREGROUND
+5    48    1170    1059  20   0 294028  8324 -      S    ?          0:00 /usr/sbin/httpd -DFOREGROUND
+5    48    1175    1059  20   0 1941688 16168 -     Sl   ?          0:02 /usr/sbin/httpd -DFOREGROUND
+5    48    1176    1059  20   0 1810560 12084 -     Sl   ?          0:02 /usr/sbin/httpd -DFOREGROUND
+5    48    1180    1059  20   0 1810560 12084 -     Sl   ?          0:02 /usr/sbin/httpd -DFOREGROUND
+0     0   29647   29504  20   0   9184  1052 -      S+   pts/0      0:00 grep -F dnsmasq neutron-l3-agen gnocchi-metricd swift-proxy-ser radosgw pacemaker_remote gnome-shell openshift start master controllers ntpd neutron-server auditd rngd COMMAND multipath neutron-dhcp-ag ora_ spausedd heat-engine multipathd elasticsearch pacemakerd pacemaker-controld pkla-check-auth docker nginx openshift start master api haproxy oracle nova-scheduler docker-runc-current tuned ceilometer-poll setup.sh sap memcached crmd smbd octavia-worker mongdb clvmd avahi cinder-volume chronyd libvirtd nova-compute snmpd /usr/bin/openshift start master nova-conductor pmie pmcd cmirrord corosync nfsd openshift start node httpd ovs-vswitchd /usr/bin/openshift start node dlm_controld redis-server

@@ -1,0 +1,60 @@
+2021-05-27 15:58:50,547 [ERROR] rhsmcertd-worker:4652:MainThread @rhsmcertd_worker.py:146 - Either the consumer is not registered or the certificates are corrupted. Certificate update using daemon failed.
+2021-05-27 18:16:15,942 [ERROR] rhsmcertd-worker:5269:MainThread @rhsmcertd_worker.py:146 - Either the consumer is not registered or the certificates are corrupted. Certificate update using daemon failed.
+2021-05-31 08:42:12,469 [ERROR] rhsmcertd-worker:5595:MainThread @rhsmcertd_worker.py:146 - Either the consumer is not registered or the certificates are corrupted. Certificate update using daemon failed.
+2021-05-31 08:42:15,328 [ERROR] rhsmcertd-worker:5641:MainThread @rhsmcertd_worker.py:146 - Either the consumer is not registered or the certificates are corrupted. Certificate update using daemon failed.
+2021-05-31 17:40:59,937 [ERROR] rhsmcertd-worker:2377:MainThread @rhsmcertd_worker.py:146 - Either the consumer is not registered or the certificates are corrupted. Certificate update using daemon failed.
+2021-05-31 18:18:13,614 [ERROR] subscription-manager:2515:MainThread @managercli.py:1602 - HTTP error (401 - Unauthorized): Invalid username or password********. To create a login, please visit https://www.redhat.com/wapps/ugc/register.html
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/subscription_manager/managercli.py", line 1589, in _do_command
+    owner_key = self._determine_owner_key(admin_cp)
+  File "/usr/lib64/python3.6/site-packages/subscription_manager/managercli.py", line 1751, in _determine_owner_key
+    owners = cp.getOwnerList(self.username)
+  File "/usr/lib64/python3.6/site-packages/rhsm/connection.py", line 1341, in getOwnerList
+    return self.conn.request_get(method)
+  File "/usr/lib64/python3.6/site-packages/rhsm/connection.py", line 882, in request_get
+    return self._request("GET", method, headers=headers, cert_key_pairs=cert_key_pairs)
+  File "/usr/lib64/python3.6/site-packages/rhsm/connection.py", line 908, in _request
+    info=info, headers=headers, cert_key_pairs=cert_key_pairs)
+  File "/usr/lib64/python3.6/site-packages/rhsm/connection.py", line 767, in _request
+    self.validateResponse(result, request_type, handler)
+  File "/usr/lib64/python3.6/site-packages/rhsm/connection.py", line 841, in validateResponse
+    raise RestlibException(response['status'], error_msg, response.get('headers'))
+rhsm.connection.RestlibException: HTTP error (401 - Unauthorized): Invalid username or password********. To create a login, please visit https://www.redhat.com/wapps/ugc/register.html
+2021-05-31 18:18:39,728 [ERROR] subscription-manager:2518:MainThread @managercli.py:1602 - HTTP error (401 - Unauthorized): Invalid username or password********. To create a login, please visit https://www.redhat.com/wapps/ugc/register.html
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/subscription_manager/managercli.py", line 1589, in _do_command
+    owner_key = self._determine_owner_key(admin_cp)
+  File "/usr/lib64/python3.6/site-packages/subscription_manager/managercli.py", line 1751, in _determine_owner_key
+    owners = cp.getOwnerList(self.username)
+  File "/usr/lib64/python3.6/site-packages/rhsm/connection.py", line 1341, in getOwnerList
+    return self.conn.request_get(method)
+  File "/usr/lib64/python3.6/site-packages/rhsm/connection.py", line 882, in request_get
+    return self._request("GET", method, headers=headers, cert_key_pairs=cert_key_pairs)
+  File "/usr/lib64/python3.6/site-packages/rhsm/connection.py", line 908, in _request
+    info=info, headers=headers, cert_key_pairs=cert_key_pairs)
+  File "/usr/lib64/python3.6/site-packages/rhsm/connection.py", line 767, in _request
+    self.validateResponse(result, request_type, handler)
+  File "/usr/lib64/python3.6/site-packages/rhsm/connection.py", line 841, in validateResponse
+    raise RestlibException(response['status'], error_msg, response.get('headers'))
+rhsm.connection.RestlibException: HTTP error (401 - Unauthorized): Invalid username or password********. To create a login, please visit https://www.redhat.com/wapps/ugc/register.html
+2021-05-31 18:19:15,264 [WARNING] subscription-manager:2521:MainThread @dmiinfo.py:130 - Error reading system DMI information: # SMBIOS implementations newer than version 2.7 are not
+# fully supported by this version of dmidecode.
+
+NoneType: None
+2021-05-31 18:19:18,926 [INFO] subscription-manager:2521:MainThread @managerlib.py:72 - Consumer created: rhel81c.sudo.net (77021c0e-cfa4-4078-9662-73b4bed7eb3f)
+2021-05-31 18:19:20,367 [WARNING] subscription-manager:2521:MainThread @dmiinfo.py:130 - Error reading system DMI information: # SMBIOS implementations newer than version 2.7 are not
+# fully supported by this version of dmidecode.
+
+NoneType: None
+2021-05-31 18:19:27,550 [INFO] subscription-manager:2521:MainThread @entcertlib.py:131 - certs updated:
+Total updates: 1
+Found (local) serial# []
+Expected (UEP) serial# [5168382536749823729]
+Added (new)
+  [sn:5168382536749823729 ( Content Access,) @ /etc/pki/entitlement/5168382536749823729.pem]
+Deleted (rogue):
+  <NONE>
+2021-05-31 18:20:08,738 [WARNING] subscription-manager:2521:MainThread @cert_sorter.py:194 - Installed product 479 not present in response from server.
+2021-05-31 18:22:16,154 [WARNING] dnf:3976:MainThread @logutil.py:154 - logging already initialized
+2021-05-31 18:22:16,680 [INFO] dnf:3976:MainThread @productid.py:593 - Installed product cert 479: Red Hat Enterprise Linux for x86_64 /etc/pki/product/479.pem
+2021-05-31 18:22:16,681 [INFO] dnf:3976:MainThread @productid.py:593 - Installed product cert 479: Red Hat Enterprise Linux for x86_64 /etc/pki/product/479.pem

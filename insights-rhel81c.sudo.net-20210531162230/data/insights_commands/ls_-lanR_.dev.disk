@@ -1,0 +1,48 @@
+/dev/disk:
+total 0
+drwxr-xr-x.  6 0 0  120 May 31 15:21 .
+drwxr-xr-x. 21 0 0 3160 May 31 15:22 ..
+drwxr-xr-x.  2 0 0  160 May 31 15:21 by-id
+drwxr-xr-x.  2 0 0   80 May 31 15:21 by-partuuid
+drwxr-xr-x.  2 0 0  220 May 31 15:21 by-path
+drwxr-xr-x.  2 0 0  100 May 31 15:21 by-uuid
+
+/dev/disk/by-id:
+total 0
+drwxr-xr-x. 2 0 0 160 May 31 15:21 .
+drwxr-xr-x. 6 0 0 120 May 31 15:21 ..
+lrwxrwxrwx. 1 0 0   9 May 31 15:21 ata-QEMU_DVD-ROM_QM00001 -> ../../sr0
+lrwxrwxrwx. 1 0 0  10 May 31 15:21 dm-name-rhel_rhel8snap6-root -> ../../dm-0
+lrwxrwxrwx. 1 0 0  10 May 31 15:21 dm-name-rhel_rhel8snap6-swap -> ../../dm-1
+lrwxrwxrwx. 1 0 0  10 May 31 15:21 dm-uuid-LVM-dp5EKQs0gCH3m00OTGaUJDDYxBrVQGFfJy0Bo7R6M9DmAVaU6pCeJpfvV7xGmeDj -> ../../dm-0
+lrwxrwxrwx. 1 0 0  10 May 31 15:21 dm-uuid-LVM-dp5EKQs0gCH3m00OTGaUJDDYxBrVQGFfh47Stbm2D5orwauYJftaV4wDrygkfXEg -> ../../dm-1
+lrwxrwxrwx. 1 0 0  10 May 31 15:21 lvm-pv-uuid-7v4dun-iQ13-RHXT-Slqw-bPd0-cPvv-d7Jirb -> ../../vda2
+
+/dev/disk/by-partuuid:
+total 0
+drwxr-xr-x. 2 0 0  80 May 31 15:21 .
+drwxr-xr-x. 6 0 0 120 May 31 15:21 ..
+lrwxrwxrwx. 1 0 0  10 May 31 15:21 67758d25-01 -> ../../vda1
+lrwxrwxrwx. 1 0 0  10 May 31 15:21 67758d25-02 -> ../../vda2
+
+/dev/disk/by-path:
+total 0
+drwxr-xr-x. 2 0 0 220 May 31 15:21 .
+drwxr-xr-x. 6 0 0 120 May 31 15:21 ..
+lrwxrwxrwx. 1 0 0   9 May 31 15:21 pci-0000:00:1f.2-ata-1 -> ../../sr0
+lrwxrwxrwx. 1 0 0   9 May 31 15:21 pci-0000:04:00.0 -> ../../vda
+lrwxrwxrwx. 1 0 0  10 May 31 15:21 pci-0000:04:00.0-part1 -> ../../vda1
+lrwxrwxrwx. 1 0 0  10 May 31 15:21 pci-0000:04:00.0-part2 -> ../../vda2
+lrwxrwxrwx. 1 0 0   9 May 31 15:21 pci-0000:07:00.0 -> ../../vdb
+lrwxrwxrwx. 1 0 0   9 May 31 15:21 virtio-pci-0000:04:00.0 -> ../../vda
+lrwxrwxrwx. 1 0 0  10 May 31 15:21 virtio-pci-0000:04:00.0-part1 -> ../../vda1
+lrwxrwxrwx. 1 0 0  10 May 31 15:21 virtio-pci-0000:04:00.0-part2 -> ../../vda2
+lrwxrwxrwx. 1 0 0   9 May 31 15:21 virtio-pci-0000:07:00.0 -> ../../vdb
+
+/dev/disk/by-uuid:
+total 0
+drwxr-xr-x. 2 0 0 100 May 31 15:21 .
+drwxr-xr-x. 6 0 0 120 May 31 15:21 ..
+lrwxrwxrwx. 1 0 0  10 May 31 15:21 538c686f-cf8a-4a60-992a-f933b02f12f7 -> ../../dm-1
+lrwxrwxrwx. 1 0 0  10 May 31 15:21 64868cb4-163e-41c4-a8e4-27080a411bce -> ../../dm-0
+lrwxrwxrwx. 1 0 0  10 May 31 15:21 95d7603e-43f0-49f6-8bea-af4169be767f -> ../../vda1

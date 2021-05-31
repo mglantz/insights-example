@@ -1,0 +1,67 @@
+Ip:
+    Forwarding: 2
+    34955 total packets received
+    6 with invalid addresses
+    0 forwarded
+    0 incoming packets discarded
+    34616 incoming packets delivered
+    21661 requests sent out
+    16 dropped because of missing route
+Icmp:
+    0 ICMP messages received
+    0 input ICMP message failed
+    ICMP input histogram:
+    1 ICMP messages sent
+    0 ICMP messages failed
+    ICMP output histogram:
+        destination unreachable: 1
+IcmpMsg:
+        OutType3: 1
+Tcp:
+    68 active connection openings
+    4 passive connection openings
+    0 failed connection attempts
+    0 connection resets received
+    1 connections established
+    34154 segments received
+    21431 segments sent out
+    0 segments retransmitted
+    0 bad segments received
+    103 resets sent
+Udp:
+    460 packets received
+    1 packets to unknown port received
+    0 packet receive errors
+    462 packets sent
+    0 receive buffer errors
+    0 send buffer errors
+    IgnoredMulti: 1
+UdpLite:
+TcpExt:
+    22 TCP sockets finished time wait in fast timer
+    9 packets rejected in established connections because of timestamp
+    52 delayed acks sent
+    Quick ack mode was activated 7 times
+    31595 packet headers predicted
+    605 acknowledgments not containing data payload received
+    669 predicted acknowledgments
+    TCPBacklogCoalesce: 32
+    TCPDSACKOldSent: 7
+    45 connections reset due to unexpected data
+    TCPRcvCoalesce: 18707
+    TCPOFOQueue: 140
+    TCPAutoCorking: 37
+    TCPOrigDataSent: 1470
+    TCPHystartDelayDetect: 1
+    TCPHystartDelayCwnd: 64
+    TCPACKSkippedPAWS: 5
+    TCPACKSkippedSeq: 9
+    TCPDelivered: 1524
+    TCPAckCompressed: 129
+IpExt:
+    InBcastPkts: 5
+    InOctets: 136820112
+    OutOctets: 1902899
+    InBcastOctets: 1601
+    InNoECTPkts: 34999
+MPTcpExt:

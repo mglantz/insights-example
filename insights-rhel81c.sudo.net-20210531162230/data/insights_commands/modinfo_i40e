@@ -1,0 +1,60 @@
+filename:       /lib/modules/4.18.0-240.22.1.el8_3.x86_64/kernel/drivers/net/ethernet/intel/i40e/i40e.ko.xz
+version:        2.8.20-k
+license:        GPL v2
+description:    Intel(R) Ethernet Connection XL710 Network Driver
+author:         Intel Corporation, <e1000-devel@lists.sourceforge.net>
+rhelversion:    8.3
+srcversion:     202D471FF2C5D44F55DCE9B
+alias:          pci:v00008086d0000158Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000158Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00000D58sv*sd*bc*sc*i*
+alias:          pci:v00008086d00000CF8sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001588sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001587sv*sd*bc*sc*i*
+alias:          pci:v00008086d000037D3sv*sd*bc*sc*i*
+alias:          pci:v00008086d000037D2sv*sd*bc*sc*i*
+alias:          pci:v00008086d000037D1sv*sd*bc*sc*i*
+alias:          pci:v00008086d000037D0sv*sd*bc*sc*i*
+alias:          pci:v00008086d000037CFsv*sd*bc*sc*i*
+alias:          pci:v00008086d000037CEsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000104Fsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000104Esv*sd*bc*sc*i*
+alias:          pci:v00008086d000015FFsv*sd*bc*sc*i*
+alias:          pci:v00008086d00001589sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001586sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001585sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001584sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001583sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001581sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001580sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001574sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001572sv*sd*bc*sc*i*
+depends:        
+intree:         Y
+name:           i40e
+vermagic:       4.18.0-240.22.1.el8_3.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        4C:11:1C:85:23:3F:6B:3A:F5:00:1E:A6:FD:81:AE:8B:EA:D7:B3:B1
+sig_hashalgo:   sha256
+signature:      63:E9:41:5D:76:D4:55:20:5B:DF:1D:D6:5C:8E:7E:AE:6C:4A:CC:1B:
+		74:80:24:2B:00:2A:12:CB:06:A9:AA:F9:5D:1F:76:F9:4F:AE:60:66:
+		C4:7E:C6:2C:72:27:16:E8:C2:6A:CE:B7:23:8E:A8:37:2F:6C:71:05:
+		32:F2:F3:D5:B9:82:CC:AF:28:89:20:85:ED:A7:73:72:86:D3:CA:3C:
+		F2:08:25:54:48:FB:27:E0:DA:45:33:7D:24:72:D5:58:1A:D6:DF:A1:
+		4A:D8:51:8F:A8:B6:73:4A:64:95:58:BE:47:42:63:E0:3F:BE:23:B7:
+		17:90:B4:7B:C2:59:27:2F:5E:C3:65:B4:8C:09:08:0D:0E:BC:46:16:
+		40:9B:D2:77:8B:F1:46:A1:06:98:B7:E2:B4:B1:E6:32:B1:98:9D:63:
+		B5:EF:B7:B6:02:FD:D6:12:22:AC:B0:89:FE:9A:47:2A:51:BB:10:D7:
+		6D:5C:FF:A6:AB:D8:CF:39:1B:4E:93:73:18:E0:23:DA:B5:EB:C5:65:
+		19:CB:6F:93:8C:C5:CE:95:BE:81:CC:2C:B6:99:79:9A:76:7C:0F:8B:
+		BA:4A:15:66:34:66:1E:F1:A3:0E:31:80:68:7B:69:69:AF:66:3B:AC:
+		A8:8F:99:A0:3C:83:F9:F4:AB:0B:A1:80:FE:36:F5:33:06:06:76:B0:
+		69:EF:E9:EC:4B:14:B5:9C:D8:53:EF:62:90:90:7E:5F:59:71:4B:08:
+		EE:93:90:64:84:79:A1:E7:F9:53:EE:9D:CC:CD:7F:1A:B5:6C:18:41:
+		A5:0F:D2:E4:78:B9:DE:8D:50:2E:A3:F8:68:BB:31:7C:29:EA:95:E7:
+		4E:7E:D2:CD:80:DA:E6:3B:9D:8A:8B:E3:A6:4A:06:CC:67:2C:94:63:
+		A0:C0:8D:8E:25:24:E7:8E:89:D9:93:F8:E1:FE:74:5B:C5:9E:C8:76:
+		27:8C:F8:91:0A:62:DF:35:B7:A8:9D:BD:D4:F1:E6:F1:CF:07:39:D1:
+		64:81:88:EB
+parm:           debug:Debug level (0=none,...,16=all), Debug mask (0x8XXXXXXX) (uint)

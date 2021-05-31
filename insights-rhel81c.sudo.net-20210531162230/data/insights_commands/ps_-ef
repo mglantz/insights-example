@@ -1,0 +1,12 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root          25       2  0 15:21 ?        00:00:00 [kauditd]
+root         854       1  0 15:21 ?        00:00:00 /sbin/auditd
+chrony       905       1  0 15:21 ?        00:00:00 /usr/sbin/chronyd
+rngd         913       1  0 15:22 ?        00:00:08 /sbin/rngd -f --fill-watermark=0
+root         953       1  0 15:22 ?        00:00:01 /usr/libexec/platform-python -Es /usr/sbin/tuned -l -P
+root        1059       1  0 15:22 ?        00:00:00 /usr/sbin/httpd -DFOREGROUND
+apache      1170    1059  0 15:22 ?        00:00:00 /usr/sbin/httpd -DFOREGROUND
+apache      1175    1059  0 15:22 ?        00:00:02 /usr/sbin/httpd -DFOREGROUND
+apache      1176    1059  0 15:22 ?        00:00:02 /usr/sbin/httpd -DFOREGROUND
+apache      1180    1059  0 15:22 ?        00:00:02 /usr/sbin/httpd -DFOREGROUND
+root       29644   29504  0 18:22 pts/0    00:00:00 grep -F nginx: worker process neutron-l3-agen gnocchi-metricd swift-proxy-ser CMD radosgw pacemaker_remote gnome-shell openshift start master controllers ntpd neutron-server auditd rngd multipath neutron-dhcp-ag ora_ spausedd heat-engine multipathd elasticsearch pacemakerd nginx: master process pacemaker-controld pkla-check-auth docker nginx openshift start master api haproxy oracle nova-scheduler docker-runc-current tuned ceilometer-poll setup.sh sap memcached crmd smbd octavia-worker mongdb clvmd cinder-volume chronyd libvirtd nova-compute snmpd /usr/bin/openshift start master nova-conductor neutron-ns-metadata-proxy pmie pmcd cmirrord corosync nfsd openshift start node httpd ovs-vswitchd /usr/bin/openshift start node dlm_controld redis-server

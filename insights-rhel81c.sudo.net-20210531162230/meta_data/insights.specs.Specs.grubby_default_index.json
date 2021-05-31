@@ -1,0 +1,1 @@
+{"name": "insights.specs.Specs.grubby_default_index", "exec_time": 2.3365020751953125e-05, "errors": [], "results": {"type": "insights.core.spec_factory.CommandOutputProvider", "object": {"rc": null, "cmd": "/usr/sbin/grubby --default-index", "args": null, "relative_path": "insights_commands/grubby_--default-index"}}, "ser_time": 0.051703691482543945}

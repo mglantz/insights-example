@@ -1,0 +1,14 @@
+
+#
+# /etc/fstab
+# Created by anaconda on Tue Nov 19 06:44:33 2019
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk/'.
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info.
+#
+# After editing this file, run 'systemctl daemon-reload' to update systemd
+# units generated from this file.
+#
+/dev/mapper/rhel_rhel8snap6-root /                       xfs     defaults        0 0
+UUID=95d7603e-43f0-49f6-8bea-af4169be767f /boot                   xfs     defaults        0 0
+/dev/mapper/rhel_rhel8snap6-swap swap                    swap    defaults        0 0

@@ -1,0 +1,69 @@
+/usr/bin/find: '/etc/origin/node': No such file or directory
+/usr/bin/find: '/etc/origin/master': No such file or directory
+notAfter=Jan 10 11:15:39 2038 GMT
+FileName= /etc/pki/swid/CA/redhat.com/redhatcodesignca.cert
+notAfter=Feb 23 18:11:05 2040 GMT
+FileName= /etc/pki/product-default/479.pem
+unable to load certificate
+139745865533248:error:0908F066:PEM routines:get_header_and_data:bad end line:crypto/pem/pem_lib.c:852:
+unable to load certificate
+140509580740416:error:09091064:PEM routines:PEM_read_bio_ex:bad base64 decode:crypto/pem/pem_lib.c:929:
+unable to load certificate
+139864719906624:error:0909006C:PEM routines:get_name:no start line:crypto/pem/pem_lib.c:745:Expecting: TRUSTED CERTIFICATE
+unable to load certificate
+140215675234112:error:0909006C:PEM routines:get_name:no start line:crypto/pem/pem_lib.c:745:Expecting: TRUSTED CERTIFICATE
+unable to load certificate
+140214195181376:error:0909006C:PEM routines:get_name:no start line:crypto/pem/pem_lib.c:745:Expecting: TRUSTED CERTIFICATE
+unable to load certificate
+140635841738560:error:0909006C:PEM routines:get_name:no start line:crypto/pem/pem_lib.c:745:Expecting: TRUSTED CERTIFICATE
+unable to load certificate
+139681181955904:error:0909006C:PEM routines:get_name:no start line:crypto/pem/pem_lib.c:745:Expecting: TRUSTED CERTIFICATE
+unable to load certificate
+140396402431808:error:0909006C:PEM routines:get_name:no start line:crypto/pem/pem_lib.c:745:Expecting: TRUSTED CERTIFICATE
+notAfter=Dec 31 09:37:37 2030 GMT
+FileName= /etc/pki/ca-trust/extracted/openssl/ca-bundle.trust.crt
+unable to load certificate
+140605259294528:error:0909006C:PEM routines:get_name:no start line:crypto/pem/pem_lib.c:745:Expecting: TRUSTED CERTIFICATE
+notAfter=Dec 31 09:37:37 2030 GMT
+FileName= /etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
+notAfter=Dec 31 09:37:37 2030 GMT
+FileName= /etc/pki/ca-trust/extracted/pem/email-ca-bundle.pem
+unable to load certificate
+140531371038528:error:0909006C:PEM routines:get_name:no start line:crypto/pem/pem_lib.c:745:Expecting: TRUSTED CERTIFICATE
+unable to load certificate
+140684950513472:error:0909006C:PEM routines:get_name:no start line:crypto/pem/pem_lib.c:745:Expecting: TRUSTED CERTIFICATE
+unable to load certificate
+140511371364160:error:0909006C:PEM routines:get_name:no start line:crypto/pem/pem_lib.c:745:Expecting: TRUSTED CERTIFICATE
+unable to load certificate
+139659530405696:error:0909006C:PEM routines:get_name:no start line:crypto/pem/pem_lib.c:745:Expecting: TRUSTED CERTIFICATE
+unable to load certificate
+139761573234496:error:0909006C:PEM routines:get_name:no start line:crypto/pem/pem_lib.c:745:Expecting: TRUSTED CERTIFICATE
+unable to load certificate
+139868357527360:error:0909006C:PEM routines:get_name:no start line:crypto/pem/pem_lib.c:745:Expecting: TRUSTED CERTIFICATE
+unable to load certificate
+139693078644544:error:0909006C:PEM routines:get_name:no start line:crypto/pem/pem_lib.c:745:Expecting: TRUSTED CERTIFICATE
+unable to load certificate
+139835920238400:error:0909006C:PEM routines:get_name:no start line:crypto/pem/pem_lib.c:745:Expecting: TRUSTED CERTIFICATE
+unable to load certificate
+139935631554368:error:0909006C:PEM routines:get_name:no start line:crypto/pem/pem_lib.c:745:Expecting: TRUSTED CERTIFICATE
+unable to load certificate
+140065243932480:error:0909006C:PEM routines:get_name:no start line:crypto/pem/pem_lib.c:745:Expecting: TRUSTED CERTIFICATE
+unable to load certificate
+139634985391936:error:0909006C:PEM routines:get_name:no start line:crypto/pem/pem_lib.c:745:Expecting: TRUSTED CERTIFICATE
+unable to load certificate
+140388046034752:error:0909006C:PEM routines:get_name:no start line:crypto/pem/pem_lib.c:745:Expecting: TRUSTED CERTIFICATE
+unable to load certificate
+139983956371264:error:0909006C:PEM routines:get_name:no start line:crypto/pem/pem_lib.c:745:Expecting: TRUSTED CERTIFICATE
+notAfter=May 31 16:19:17 2022 GMT
+FileName= /etc/pki/consumer/cert.pem
+unable to load certificate
+140023597483840:error:0909006C:PEM routines:get_name:no start line:crypto/pem/pem_lib.c:745:Expecting: TRUSTED CERTIFICATE
+notAfter=May 31 15:19:24 2022 GMT
+FileName= /etc/pki/entitlement/5168382536749823729.pem
+notAfter=Aug  6 13:37:30 2040 GMT
+FileName= /etc/pki/product/479.pem
+unable to load certificate
+140070697215808:error:0909006C:PEM routines:get_name:no start line:crypto/pem/pem_lib.c:745:Expecting: TRUSTED CERTIFICATE
+notAfter=Nov  6 11:56:56 2021 GMT
+FileName= /etc/pki/consumer.old/cert.pem
+/usr/bin/find: '/etc/ipa': No such file or directory

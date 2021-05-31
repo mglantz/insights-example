@@ -1,0 +1,72 @@
+filename:       /lib/modules/4.18.0-240.22.1.el8_3.x86_64/kernel/drivers/net/ethernet/intel/igb/igb.ko.xz
+version:        5.6.0-k
+license:        GPL v2
+description:    Intel(R) Gigabit Ethernet Network Driver
+author:         Intel Corporation, <e1000-devel@lists.sourceforge.net>
+rhelversion:    8.3
+srcversion:     0A76AC803C434D3909266B2
+alias:          pci:v00008086d000010D6sv*sd*bc*sc*i*
+alias:          pci:v00008086d000010A9sv*sd*bc*sc*i*
+alias:          pci:v00008086d000010A7sv*sd*bc*sc*i*
+alias:          pci:v00008086d000010E8sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001526sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000150Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d000010E7sv*sd*bc*sc*i*
+alias:          pci:v00008086d000010E6sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001518sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000150Asv*sd*bc*sc*i*
+alias:          pci:v00008086d000010C9sv*sd*bc*sc*i*
+alias:          pci:v00008086d00000440sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000043Csv*sd*bc*sc*i*
+alias:          pci:v00008086d0000043Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00000438sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001516sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001511sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001510sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001527sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000150Fsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000150Esv*sd*bc*sc*i*
+alias:          pci:v00008086d00001524sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001523sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001522sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001521sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000157Csv*sd*bc*sc*i*
+alias:          pci:v00008086d0000157Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d00001538sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001537sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001536sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001533sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001539sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001F45sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001F41sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001F40sv*sd*bc*sc*i*
+depends:        dca,i2c-algo-bit
+intree:         Y
+name:           igb
+vermagic:       4.18.0-240.22.1.el8_3.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        4C:11:1C:85:23:3F:6B:3A:F5:00:1E:A6:FD:81:AE:8B:EA:D7:B3:B1
+sig_hashalgo:   sha256
+signature:      02:C2:F8:72:BC:87:88:DE:07:67:2F:FF:4E:C8:C5:33:DD:48:9E:AD:
+		32:7A:5E:34:31:A8:4F:A7:15:89:33:72:51:D8:82:2F:EF:FB:0D:79:
+		56:AE:A4:94:94:93:E8:96:31:48:B0:A6:54:DC:C7:62:DB:6F:44:4B:
+		D4:83:4C:E9:BA:39:66:E8:E1:E1:2B:6A:E3:5F:19:D4:7B:9F:6F:92:
+		72:74:6D:54:2F:AA:E6:DD:00:5E:33:29:6F:C9:55:62:55:E1:AE:80:
+		40:9B:45:00:0C:2B:36:12:90:70:EE:70:9B:D4:51:28:9A:8E:EB:5B:
+		38:E5:BE:81:2E:91:96:0A:4D:C7:FD:06:38:21:9D:8A:BE:C0:A2:5B:
+		03:4A:1D:19:9F:56:22:11:1A:DF:DB:52:80:55:68:83:2D:1E:33:0E:
+		A2:71:F1:EE:50:EF:24:58:48:D8:C7:75:07:08:B5:04:D8:2C:57:16:
+		4F:1C:85:47:89:90:08:63:37:4A:CA:16:BC:1C:B3:C5:30:FA:81:7B:
+		96:8C:44:46:25:00:48:87:38:A1:22:01:97:4E:A1:4E:35:1D:A4:BD:
+		37:DC:76:6E:0B:71:E7:AA:A1:B6:AC:0E:8C:F3:5B:35:DF:D3:7A:3D:
+		17:4E:3D:17:B0:1D:45:F1:E5:51:9F:1A:FA:DD:F7:33:2C:89:BB:45:
+		3D:CD:A9:0F:24:F2:33:E9:ED:0E:4A:9F:23:A2:22:7F:BE:0B:48:9F:
+		CA:E2:80:75:B8:25:2F:62:B0:6C:0E:4C:CC:71:E9:A5:F8:22:03:72:
+		8C:F9:3B:00:84:E1:F3:28:2D:08:4D:22:A7:B6:0A:7E:9B:C8:B6:04:
+		26:01:B7:DC:26:96:F9:C5:4E:55:60:FA:E1:57:AC:08:CD:EF:7D:15:
+		A9:A5:79:7F:00:F0:A8:E4:E0:9C:B5:DA:EF:36:12:31:04:DF:C1:73:
+		2E:DB:4B:5B:CE:89:38:57:B1:33:91:4C:00:39:22:86:AF:5D:7F:D5:
+		C0:0F:A3:88
+parm:           max_vfs:Maximum number of virtual functions to allocate per physical function (uint)
+parm:           debug:Debug level (0=none,...,16=all) (int)

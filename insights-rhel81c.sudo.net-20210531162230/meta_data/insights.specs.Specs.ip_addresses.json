@@ -1,0 +1,1 @@
+{"name": "insights.specs.Specs.ip_addresses", "exec_time": 9.751319885253906e-05, "errors": [], "results": {"type": "insights.core.spec_factory.CommandOutputProvider", "object": {"rc": null, "cmd": "/bin/hostname -I", "args": null, "relative_path": "insights_commands/hostname_-I"}}, "ser_time": 0.0031006336212158203}

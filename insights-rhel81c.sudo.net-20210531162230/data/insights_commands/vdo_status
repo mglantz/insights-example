@@ -1,0 +1,12 @@
+VDO status:
+  Date: '2021-05-31 18:22:46+02:00'
+  Node: rhel81c.sudo.net
+Kernel module:
+  Loaded: false
+  Name: kvdo
+  Version information:
+    kvdo version: 6.2.3.114
+Configuration:
+  File: does not exist
+  Last modified: not available
+VDOs: {}

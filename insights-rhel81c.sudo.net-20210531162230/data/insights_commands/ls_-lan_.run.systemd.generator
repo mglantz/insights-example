@@ -1,0 +1,8 @@
+total 12
+-rw-r--r--.  1 0 0 228 May 31 18:22 -.mount
+drwxr-xr-x.  4 0 0 140 May 31 18:22 .
+drwxr-xr-x. 16 0 0 400 May 31 18:22 ..
+-rw-r--r--.  1 0 0 254 May 31 18:22 boot.mount
+-rw-r--r--.  1 0 0 241 May 31 18:22 dev-mapper-rhel_rhel8snap6\x2dswap.swap
+drwxr-xr-x.  2 0 0  80 May 31 18:22 local-fs.target.requires
+drwxr-xr-x.  2 0 0  60 May 31 18:22 swap.target.requires

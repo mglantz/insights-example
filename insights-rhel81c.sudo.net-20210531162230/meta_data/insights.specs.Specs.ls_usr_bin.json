@@ -1,0 +1,1 @@
+{"name": "insights.specs.Specs.ls_usr_bin", "exec_time": 3.790855407714844e-05, "errors": [], "results": {"type": "insights.core.spec_factory.CommandOutputProvider", "object": {"rc": null, "cmd": "/bin/ls -lan /usr/bin", "args": null, "relative_path": "insights_commands/ls_-lan_.usr.bin"}}, "ser_time": 0.013171195983886719}

@@ -1,0 +1,5 @@
+python - status is auto.
+ link currently points to /usr/libexec/no-python
+/usr/libexec/no-python - priority 404
+ slave unversioned-python-man: /usr/share/man/man1/unversioned-python.1.gz
+Current `best' version is /usr/libexec/no-python.

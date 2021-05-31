@@ -1,0 +1,1 @@
+{"name": "insights.specs.Specs.interrupts", "exec_time": 2.4557113647460938e-05, "errors": [], "results": {"type": "insights.core.spec_factory.TextFileProvider", "object": {"relative_path": "proc/interrupts", "rc": null}}, "ser_time": 0.002361297607421875}

@@ -1,0 +1,1 @@
+{"name": "insights.specs.Specs.up2date", "exec_time": 2.193450927734375e-05, "errors": [], "results": {"type": "insights.core.spec_factory.TextFileProvider", "object": {"relative_path": "etc/sysconfig/rhn/up2date", "rc": null}}, "ser_time": 0.0026581287384033203}

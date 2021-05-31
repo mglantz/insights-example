@@ -1,0 +1,1 @@
+{"name": "insights.specs.Specs.audit_log", "exec_time": 1.8358230590820312e-05, "errors": [], "results": {"type": "insights.core.spec_factory.TextFileProvider", "object": {"relative_path": "var/log/audit/audit.log", "rc": null}}, "ser_time": 0.006857872009277344}

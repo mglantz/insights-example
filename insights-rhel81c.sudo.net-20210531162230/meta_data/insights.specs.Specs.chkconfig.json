@@ -1,0 +1,1 @@
+{"name": "insights.specs.Specs.chkconfig", "exec_time": 2.1457672119140625e-05, "errors": [], "results": {"type": "insights.core.spec_factory.CommandOutputProvider", "object": {"rc": null, "cmd": "/sbin/chkconfig --list", "args": null, "relative_path": "insights_commands/chkconfig_--list"}}, "ser_time": 0.003458261489868164}

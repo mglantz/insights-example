@@ -1,0 +1,51 @@
+           CPU0       CPU1       
+  1:          0          9   IO-APIC   1-edge      i8042
+  8:          0          0   IO-APIC   8-edge      rtc0
+  9:          0          0   IO-APIC   9-fasteoi   acpi
+ 12:        144          0   IO-APIC  12-edge      i8042
+ 16:          0          0   IO-APIC  16-fasteoi   i801_smbus
+ 21:        769        140   IO-APIC  21-fasteoi   qxl
+ 22:         47          2   IO-APIC  22-fasteoi   virtio4, virtio3
+ 24:          0          1   PCI-MSI 32768-edge      PCIe PME, aerdrv, pciehp
+ 25:          1          0   PCI-MSI 34816-edge      PCIe PME, aerdrv, pciehp
+ 26:          0          1   PCI-MSI 36864-edge      PCIe PME, aerdrv, pciehp
+ 27:          1          0   PCI-MSI 38912-edge      PCIe PME, aerdrv, pciehp
+ 28:          0          1   PCI-MSI 40960-edge      PCIe PME, aerdrv, pciehp
+ 29:          1          0   PCI-MSI 43008-edge      PCIe PME, aerdrv, pciehp
+ 30:          0          1   PCI-MSI 45056-edge      PCIe PME, aerdrv, pciehp
+ 31:          0         23   PCI-MSI 1048576-edge      xhci_hcd
+ 32:          0          0   PCI-MSI 1048577-edge      xhci_hcd
+ 33:          0          0   PCI-MSI 1048578-edge      xhci_hcd
+ 34:          0          0   PCI-MSI 1572864-edge      virtio1-config
+ 35:         23          0   PCI-MSI 1572865-edge      virtio1-virtqueues
+ 36:          0          0   PCI-MSI 524288-edge      virtio0-config
+ 37:        300      14724   PCI-MSI 524289-edge      virtio0-input.0
+ 38:      15648        701   PCI-MSI 524290-edge      virtio0-output.0
+ 39:          0          0   PCI-MSI 2097152-edge      virtio2-config
+ 40:          0      20286   PCI-MSI 2097153-edge      virtio2-req.0
+ 41:          0          0   PCI-MSI 3670016-edge      virtio5-config
+ 42:        167          0   PCI-MSI 3670017-edge      virtio5-req.0
+ 43:       2575        544   PCI-MSI 512000-edge      ahci[0000:00:1f.2]
+ 44:          0        216   PCI-MSI 442368-edge      snd_hda_intel:card0
+NMI:          0          0   Non-maskable interrupts
+LOC:     196489     273403   Local timer interrupts
+SPU:          0          0   Spurious interrupts
+PMI:          0          0   Performance monitoring interrupts
+IWI:          0          4   IRQ work interrupts
+RTR:          0          0   APIC ICR read retries
+RES:      63100      47046   Rescheduling interrupts
+CAL:      14293       4907   Function call interrupts
+TLB:         37         30   TLB shootdowns
+TRM:          0          0   Thermal event interrupts
+THR:          0          0   Threshold APIC interrupts
+DFR:          0          0   Deferred Error APIC interrupts
+MCE:          0          0   Machine check exceptions
+MCP:         19         19   Machine check polls
+HYP:          0          0   Hypervisor callback interrupts
+HRE:          0          0   Hyper-V reenlightenment interrupts
+HVS:          0          0   Hyper-V stimer0 interrupts
+ERR:          0
+MIS:          0
+PIN:          0          0   Posted-interrupt notification event
+NPI:          0          0   Nested posted-interrupt event
+PIW:          0          0   Posted-interrupt wakeup event

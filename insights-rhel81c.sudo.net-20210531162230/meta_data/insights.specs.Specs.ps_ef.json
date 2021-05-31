@@ -1,0 +1,1 @@
+{"name": "insights.specs.Specs.ps_ef", "exec_time": 0.00011301040649414062, "errors": [], "results": {"type": "insights.core.spec_factory.CommandOutputProvider", "object": {"rc": null, "cmd": "/bin/ps -ef", "args": null, "relative_path": "insights_commands/ps_-ef"}}, "ser_time": 0.012703895568847656}

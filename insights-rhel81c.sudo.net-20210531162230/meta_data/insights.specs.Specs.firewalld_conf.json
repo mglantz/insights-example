@@ -1,0 +1,1 @@
+{"name": "insights.specs.Specs.firewalld_conf", "exec_time": 2.4080276489257812e-05, "errors": [], "results": {"type": "insights.core.spec_factory.TextFileProvider", "object": {"relative_path": "etc/firewalld/firewalld.conf", "rc": null}}, "ser_time": 0.0025849342346191406}

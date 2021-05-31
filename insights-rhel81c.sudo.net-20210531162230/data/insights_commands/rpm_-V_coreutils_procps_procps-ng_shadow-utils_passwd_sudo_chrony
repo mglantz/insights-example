@@ -1,0 +1,4 @@
+package procps is not installed
+S.5....T.  c /etc/sudoers
+S.5....T.  c /etc/chrony.conf
+S.5....T.  c /etc/sysconfig/chronyd

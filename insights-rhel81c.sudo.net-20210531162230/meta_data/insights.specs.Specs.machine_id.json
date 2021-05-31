@@ -1,0 +1,1 @@
+{"name": "insights.specs.Specs.machine_id", "exec_time": 3.910064697265625e-05, "errors": [], "results": {"type": "insights.core.spec_factory.TextFileProvider", "object": {"relative_path": "etc/insights-client/machine-id", "rc": null}}, "ser_time": 0.003118753433227539}

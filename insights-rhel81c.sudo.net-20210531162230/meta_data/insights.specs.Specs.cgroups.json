@@ -1,0 +1,1 @@
+{"name": "insights.specs.Specs.cgroups", "exec_time": 2.956390380859375e-05, "errors": [], "results": {"type": "insights.core.spec_factory.TextFileProvider", "object": {"relative_path": "proc/cgroups", "rc": null}}, "ser_time": 0.002950906753540039}

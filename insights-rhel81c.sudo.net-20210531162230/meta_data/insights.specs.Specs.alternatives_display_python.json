@@ -1,0 +1,1 @@
+{"name": "insights.specs.Specs.alternatives_display_python", "exec_time": 2.193450927734375e-05, "errors": [], "results": {"type": "insights.core.spec_factory.CommandOutputProvider", "object": {"rc": null, "cmd": "/usr/sbin/alternatives --display python", "args": null, "relative_path": "insights_commands/alternatives_--display_python"}}, "ser_time": 0.003175497055053711}

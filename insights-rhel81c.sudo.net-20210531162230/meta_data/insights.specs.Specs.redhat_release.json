@@ -1,0 +1,1 @@
+{"name": "insights.specs.Specs.redhat_release", "exec_time": 2.9325485229492188e-05, "errors": [], "results": {"type": "insights.core.spec_factory.TextFileProvider", "object": {"relative_path": "etc/redhat-release", "rc": null}}, "ser_time": 0.0034694671630859375}

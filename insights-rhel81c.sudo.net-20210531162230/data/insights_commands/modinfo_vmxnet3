@@ -1,0 +1,36 @@
+filename:       /lib/modules/4.18.0-240.22.1.el8_3.x86_64/kernel/drivers/net/vmxnet3/vmxnet3.ko.xz
+version:        1.5.0.0-k
+license:        GPL v2
+description:    VMware vmxnet3 virtual NIC driver
+author:         VMware, Inc.
+rhelversion:    8.3
+srcversion:     825494472EEFEA352948810
+alias:          pci:v000015ADd000007B0sv*sd*bc*sc*i*
+depends:        
+intree:         Y
+name:           vmxnet3
+vermagic:       4.18.0-240.22.1.el8_3.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        4C:11:1C:85:23:3F:6B:3A:F5:00:1E:A6:FD:81:AE:8B:EA:D7:B3:B1
+sig_hashalgo:   sha256
+signature:      8C:65:57:EE:C9:38:12:59:0A:15:3B:E8:78:60:E4:41:B5:2E:30:B6:
+		FE:9B:7C:67:C7:3C:8C:74:71:4D:8D:4A:CD:B5:29:E2:C4:8A:D3:DB:
+		71:BD:6E:9D:52:7C:37:2C:85:34:B1:9B:D3:D3:FE:51:D5:C9:88:A9:
+		34:EF:C1:09:05:73:11:19:91:09:AF:E4:95:65:3E:9C:BE:5D:FA:DB:
+		E6:33:C4:67:F6:E3:C3:BC:05:FF:28:A8:C3:88:EB:0C:BE:05:3B:71:
+		1F:85:62:27:AE:07:8D:77:86:7A:80:1F:5C:34:2B:DF:7D:D2:44:79:
+		EA:44:EA:17:3B:53:9E:5B:47:D8:94:45:3A:74:FC:10:CA:35:0F:24:
+		61:DF:60:37:F7:21:80:72:B8:6A:40:DB:74:2B:F2:30:28:81:BE:4E:
+		FA:89:DF:FB:76:FE:4A:E0:49:5D:B6:1D:0E:00:E2:E5:25:F3:55:7C:
+		99:25:29:5E:A9:40:59:71:90:45:55:EE:28:E9:5C:E7:85:3E:C8:77:
+		37:70:09:C2:9E:0B:BD:BB:CB:8A:6C:94:1D:17:30:1B:85:F6:1D:FC:
+		90:5A:A6:3A:F8:8B:B3:2D:23:FB:E4:1F:81:47:46:13:68:02:69:A2:
+		96:E2:7C:A1:77:93:E2:19:A8:54:46:D1:AC:4F:C9:F8:CE:BA:C4:1A:
+		47:3C:70:FD:F8:5C:21:BB:9A:F9:D1:93:10:45:40:D4:A9:E2:3D:12:
+		6B:7D:48:AE:DC:6E:06:79:DE:A3:46:73:A9:A8:31:80:DF:3F:61:92:
+		AC:35:C3:AE:7B:19:3F:65:C6:FE:E9:F9:9D:A6:99:D7:A3:1B:FA:7E:
+		22:3A:A3:AB:D0:22:BF:9E:09:AD:24:45:E6:F8:8B:B1:77:DB:EE:A8:
+		F6:23:13:43:31:82:E8:69:AC:57:DA:B5:36:B7:43:CE:A1:9E:AB:82:
+		98:FD:F1:D5:2F:84:2A:9F:B2:B5:86:84:3C:A7:DA:A1:88:3F:24:DD:
+		22:9C:46:17

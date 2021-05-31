@@ -1,0 +1,21 @@
+  --- Volume group ---
+  VG Name               rhel_rhel8snap6
+  System ID             
+  Format                lvm2
+  Metadata Areas        1
+  Metadata Sequence No  3
+  VG Access             read/write
+  VG Status             resizable
+  MAX LV                0
+  Cur LV                2
+  Open LV               2
+  Max PV                0
+  Cur PV                1
+  Act PV                1
+  VG Size               <9.00 GiB
+  PE Size               4.00 MiB
+  Total PE              2303
+  Alloc PE / Size       2303 / <9.00 GiB
+  Free  PE / Size       0 / 0   
+  VG UUID               dp5EKQ-s0gC-H3m0-0OTG-aUJD-DYxB-rVQGFf
+   

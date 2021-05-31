@@ -1,0 +1,1 @@
+{"name": "insights.specs.Specs.rhsm_log", "exec_time": 2.7418136596679688e-05, "errors": [], "results": {"type": "insights.core.spec_factory.TextFileProvider", "object": {"relative_path": "var/log/rhsm/rhsm.log", "rc": null}}, "ser_time": 0.0024442672729492188}

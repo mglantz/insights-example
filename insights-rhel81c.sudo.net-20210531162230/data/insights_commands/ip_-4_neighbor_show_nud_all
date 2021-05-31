@@ -1,0 +1,2 @@
+0.0.0.0 dev lo lladdr 00:00:00:00:00:00 NOARP
+192.168.120.1 dev enp1s0 lladdr 52:54:00:70:a6:49 REACHABLE

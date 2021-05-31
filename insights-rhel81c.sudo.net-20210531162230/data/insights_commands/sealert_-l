@@ -1,0 +1,968 @@
+SELinux is preventing /usr/bin/ls from getattr access on the file /etc/shadow-.
+
+*****  Plugin catchall (100. confidence) suggests   **************************
+
+If you believe that ls should be allowed getattr access on the shadow- file by default.
+Then you should report this as a bug.
+You can generate a local policy module to allow this access.
+Do
+allow this access for now by executing:
+# ausearch -c 'ls' --raw | audit2allow -M my-ls
+# semodule -X 300 -i my-ls.pp
+
+
+Additional Information:
+Source Context                system_u:system_r:httpd_t:s0
+Target Context                system_u:object_r:shadow_t:s0
+Target Objects                /etc/shadow- [ file ]
+Source                        ls
+Source Path                   /usr/bin/ls
+Port                          <Unknown>
+Host                          rhel81c.sudo.net
+Source RPM Packages           coreutils-8.30-6.el8.x86_64
+Target RPM Packages           
+SELinux Policy RPM            selinux-policy-3.14.3-20.el8.noarch
+Local Policy RPM              <Unknown>
+Selinux Enabled               True
+Policy Type                   targeted
+Enforcing Mode                Permissive
+Host Name                     rhel81c.sudo.net
+Platform                      Linux rhel81c.sudo.net 4.18.0-147.el8.x86_64 #1
+                              SMP Thu Sep 26 15:52:44 UTC 2019 x86_64 x86_64
+Alert Count                   1
+First Seen                    2020-01-29 23:32:20 CET
+Last Seen                     2020-01-29 23:32:20 CET
+Local ID                      db901560-7739-441c-94f2-136ad9518e68
+
+Raw Audit Messages
+type=AVC msg=audit(1580337140.125:159): avc:  denied  { getattr } for  pid=27706 comm="ls" path="/etc/shadow-" dev="dm-0" ino=4204691 scontext=system_u:system_r:httpd_t:s0 tcontext=system_u:object_r:shadow_t:s0 tclass=file permissive=1
+
+
+type=SYSCALL msg=audit(1580337140.125:159): arch=x86_64 syscall=lstat success=yes exit=0 a0=7ffd7bf60b80 a1=5561df5aae88 a2=5561df5aae88 a3=7ffd7bf60b83 items=0 ppid=27705 pid=27706 auid=4294967295 uid=48 gid=48 euid=48 suid=48 fsuid=48 egid=48 sgid=48 fsgid=48 tty=(none) ses=4294967295 comm=ls exe=/usr/bin/ls subj=system_u:system_r:httpd_t:s0 key=(null)
+
+Hash: ls,httpd_t,shadow_t,file,getattr
+
+SELinux is preventing /usr/bin/ls from getattr access on the file /etc/adjtime.
+
+*****  Plugin catchall (100. confidence) suggests   **************************
+
+If you believe that ls should be allowed getattr access on the adjtime file by default.
+Then you should report this as a bug.
+You can generate a local policy module to allow this access.
+Do
+allow this access for now by executing:
+# ausearch -c 'ls' --raw | audit2allow -M my-ls
+# semodule -X 300 -i my-ls.pp
+
+
+Additional Information:
+Source Context                system_u:system_r:httpd_t:s0
+Target Context                system_u:object_r:adjtime_t:s0
+Target Objects                /etc/adjtime [ file ]
+Source                        ls
+Source Path                   /usr/bin/ls
+Port                          <Unknown>
+Host                          rhel81c.sudo.net
+Source RPM Packages           coreutils-8.30-6.el8.x86_64
+Target RPM Packages           util-linux-2.32.1-17.el8.x86_64
+SELinux Policy RPM            selinux-policy-3.14.3-20.el8.noarch
+Local Policy RPM              <Unknown>
+Selinux Enabled               True
+Policy Type                   targeted
+Enforcing Mode                Permissive
+Host Name                     rhel81c.sudo.net
+Platform                      Linux rhel81c.sudo.net 4.18.0-147.el8.x86_64 #1
+                              SMP Thu Sep 26 15:52:44 UTC 2019 x86_64 x86_64
+Alert Count                   1
+First Seen                    2020-01-29 23:32:20 CET
+Last Seen                     2020-01-29 23:32:20 CET
+Local ID                      e4fa36e9-4a23-4693-8279-47c58639ccff
+
+Raw Audit Messages
+type=AVC msg=audit(1580337140.125:160): avc:  denied  { getattr } for  pid=27706 comm="ls" path="/etc/adjtime" dev="dm-0" ino=4429967 scontext=system_u:system_r:httpd_t:s0 tcontext=system_u:object_r:adjtime_t:s0 tclass=file permissive=1
+
+
+type=SYSCALL msg=audit(1580337140.125:160): arch=x86_64 syscall=lstat success=yes exit=0 a0=7ffd7bf60b80 a1=5561df5ab338 a2=5561df5ab338 a3=7ffd7bf60b83 items=0 ppid=27705 pid=27706 auid=4294967295 uid=48 gid=48 euid=48 suid=48 fsuid=48 egid=48 sgid=48 fsgid=48 tty=(none) ses=4294967295 comm=ls exe=/usr/bin/ls subj=system_u:system_r:httpd_t:s0 key=(null)
+
+Hash: ls,httpd_t,adjtime_t,file,getattr
+
+SELinux is preventing ls from getattr access on the file /etc/crontab.
+
+*****  Plugin catchall (100. confidence) suggests   **************************
+
+If you believe that ls should be allowed getattr access on the crontab file by default.
+Then you should report this as a bug.
+You can generate a local policy module to allow this access.
+Do
+allow this access for now by executing:
+# ausearch -c 'ls' --raw | audit2allow -M my-ls
+# semodule -X 300 -i my-ls.pp
+
+
+Additional Information:
+Source Context                system_u:system_r:httpd_t:s0
+Target Context                system_u:object_r:system_cron_spool_t:s0
+Target Objects                /etc/crontab [ file ]
+Source                        ls
+Source Path                   ls
+Port                          <Unknown>
+Host                          rhel81c.sudo.net
+Source RPM Packages           
+Target RPM Packages           crontabs-1.11-16.20150630git.el8.noarch
+SELinux Policy RPM            selinux-policy-3.14.3-20.el8.noarch
+Local Policy RPM              <Unknown>
+Selinux Enabled               True
+Policy Type                   targeted
+Enforcing Mode                Permissive
+Host Name                     rhel81c.sudo.net
+Platform                      Linux rhel81c.sudo.net 4.18.0-147.el8.x86_64 #1
+                              SMP Thu Sep 26 15:52:44 UTC 2019 x86_64 x86_64
+Alert Count                   1
+First Seen                    2020-01-29 23:32:20 CET
+Last Seen                     2020-01-29 23:32:20 CET
+Local ID                      866d3ae5-e5b5-499c-8206-86ac2e6b365a
+
+Raw Audit Messages
+type=AVC msg=audit(1580337140.126:163): avc:  denied  { getattr } for  pid=27706 comm="ls" path="/etc/crontab" dev="dm-0" ino=4582267 scontext=system_u:system_r:httpd_t:s0 tcontext=system_u:object_r:system_cron_spool_t:s0 tclass=file permissive=1
+
+
+Hash: ls,httpd_t,system_cron_spool_t,file,getattr
+
+SELinux is preventing /usr/bin/ls from getattr access on the file /etc/kdump.conf.
+
+*****  Plugin catchall (100. confidence) suggests   **************************
+
+If you believe that ls should be allowed getattr access on the kdump.conf file by default.
+Then you should report this as a bug.
+You can generate a local policy module to allow this access.
+Do
+allow this access for now by executing:
+# ausearch -c 'ls' --raw | audit2allow -M my-ls
+# semodule -X 300 -i my-ls.pp
+
+
+Additional Information:
+Source Context                system_u:system_r:httpd_t:s0
+Target Context                system_u:object_r:kdump_etc_t:s0
+Target Objects                /etc/kdump.conf [ file ]
+Source                        ls
+Source Path                   /usr/bin/ls
+Port                          <Unknown>
+Host                          rhel81c.sudo.net
+Source RPM Packages           coreutils-8.30-6.el8.x86_64
+Target RPM Packages           kexec-tools-2.0.19-12.el8.x86_64
+SELinux Policy RPM            selinux-policy-3.14.3-20.el8.noarch
+Local Policy RPM              <Unknown>
+Selinux Enabled               True
+Policy Type                   targeted
+Enforcing Mode                Permissive
+Host Name                     rhel81c.sudo.net
+Platform                      Linux rhel81c.sudo.net 4.18.0-147.el8.x86_64 #1
+                              SMP Thu Sep 26 15:52:44 UTC 2019 x86_64 x86_64
+Alert Count                   1
+First Seen                    2020-01-29 23:32:20 CET
+Last Seen                     2020-01-29 23:32:20 CET
+Local ID                      c6a62b54-dd36-4068-aa49-5aff08bb5bc4
+
+Raw Audit Messages
+type=AVC msg=audit(1580337140.126:164): avc:  denied  { getattr } for  pid=27706 comm="ls" path="/etc/kdump.conf" dev="dm-0" ino=4692413 scontext=system_u:system_r:httpd_t:s0 tcontext=system_u:object_r:kdump_etc_t:s0 tclass=file permissive=1
+
+
+type=SYSCALL msg=audit(1580337140.126:164): arch=x86_64 syscall=lstat success=yes exit=0 a0=7ffd7bf60b80 a1=5561df5bf040 a2=5561df5bf040 a3=7ffd7bf60b83 items=0 ppid=27705 pid=27706 auid=4294967295 uid=48 gid=48 euid=48 suid=48 fsuid=48 egid=48 sgid=48 fsgid=48 tty=(none) ses=4294967295 comm=ls exe=/usr/bin/ls subj=system_u:system_r:httpd_t:s0 key=(null)
+
+Hash: ls,httpd_t,kdump_etc_t,file,getattr
+
+SELinux is preventing /usr/bin/ls from getattr access on the file /etc/rsyslog.conf.
+
+*****  Plugin catchall (100. confidence) suggests   **************************
+
+If you believe that ls should be allowed getattr access on the rsyslog.conf file by default.
+Then you should report this as a bug.
+You can generate a local policy module to allow this access.
+Do
+allow this access for now by executing:
+# ausearch -c 'ls' --raw | audit2allow -M my-ls
+# semodule -X 300 -i my-ls.pp
+
+
+Additional Information:
+Source Context                system_u:system_r:httpd_t:s0
+Target Context                system_u:object_r:syslog_conf_t:s0
+Target Objects                /etc/rsyslog.conf [ file ]
+Source                        ls
+Source Path                   /usr/bin/ls
+Port                          <Unknown>
+Host                          rhel81c.sudo.net
+Source RPM Packages           coreutils-8.30-6.el8.x86_64
+Target RPM Packages           rsyslog-8.37.0-13.el8.x86_64
+SELinux Policy RPM            selinux-policy-3.14.3-20.el8.noarch
+Local Policy RPM              <Unknown>
+Selinux Enabled               True
+Policy Type                   targeted
+Enforcing Mode                Permissive
+Host Name                     rhel81c.sudo.net
+Platform                      Linux rhel81c.sudo.net 4.18.0-147.el8.x86_64 #1
+                              SMP Thu Sep 26 15:52:44 UTC 2019 x86_64 x86_64
+Alert Count                   1
+First Seen                    2020-01-29 23:32:20 CET
+Last Seen                     2020-01-29 23:32:20 CET
+Local ID                      7202fe98-e6a5-4eaa-8e29-08b4223d2041
+
+Raw Audit Messages
+type=AVC msg=audit(1580337140.126:165): avc:  denied  { getattr } for  pid=27706 comm="ls" path="/etc/rsyslog.conf" dev="dm-0" ino=4719737 scontext=system_u:system_r:httpd_t:s0 tcontext=system_u:object_r:syslog_conf_t:s0 tclass=file permissive=1
+
+
+type=SYSCALL msg=audit(1580337140.126:165): arch=x86_64 syscall=lstat success=yes exit=0 a0=7ffd7bf60b80 a1=5561df5bf4f0 a2=5561df5bf4f0 a3=7ffd7bf60b83 items=0 ppid=27705 pid=27706 auid=4294967295 uid=48 gid=48 euid=48 suid=48 fsuid=48 egid=48 sgid=48 fsgid=48 tty=(none) ses=4294967295 comm=ls exe=/usr/bin/ls subj=system_u:system_r:httpd_t:s0 key=(null)
+
+Hash: ls,httpd_t,syslog_conf_t,file,getattr
+
+SELinux is preventing /usr/bin/ls from getattr access on the file /etc/aliases.
+
+*****  Plugin catchall (100. confidence) suggests   **************************
+
+If you believe that ls should be allowed getattr access on the aliases file by default.
+Then you should report this as a bug.
+You can generate a local policy module to allow this access.
+Do
+allow this access for now by executing:
+# ausearch -c 'ls' --raw | audit2allow -M my-ls
+# semodule -X 300 -i my-ls.pp
+
+
+Additional Information:
+Source Context                system_u:system_r:httpd_t:s0
+Target Context                system_u:object_r:etc_aliases_t:s0
+Target Objects                /etc/aliases [ file ]
+Source                        ls
+Source Path                   /usr/bin/ls
+Port                          <Unknown>
+Host                          rhel81c.sudo.net
+Source RPM Packages           
+Target RPM Packages           setup-2.12.2-2.el8.noarch
+SELinux Policy RPM            selinux-policy-3.14.3-20.el8.noarch
+Local Policy RPM              <Unknown>
+Selinux Enabled               True
+Policy Type                   targeted
+Enforcing Mode                Permissive
+Host Name                     rhel81c.sudo.net
+Platform                      Linux rhel81c.sudo.net 4.18.0-147.el8.x86_64 #1
+                              SMP Thu Sep 26 15:52:44 UTC 2019 x86_64 x86_64
+Alert Count                   2
+First Seen                    2020-01-29 23:32:20 CET
+Last Seen                     2020-01-29 23:32:33 CET
+Local ID                      a5d35905-2ece-4fd5-bfaf-773751c42602
+
+Raw Audit Messages
+type=AVC msg=audit(1580337153.462:167): avc:  denied  { getattr } for  pid=27741 comm="ls" path="/etc/aliases" dev="dm-0" ino=4204676 scontext=system_u:system_r:httpd_t:s0 tcontext=system_u:object_r:etc_aliases_t:s0 tclass=file permissive=1
+
+
+Hash: ls,httpd_t,etc_aliases_t,file,getattr
+
+SELinux is preventing /usr/bin/ls from getattr access on the file /etc/exports.
+
+*****  Plugin catchall (100. confidence) suggests   **************************
+
+If you believe that ls should be allowed getattr access on the exports file by default.
+Then you should report this as a bug.
+You can generate a local policy module to allow this access.
+Do
+allow this access for now by executing:
+# ausearch -c 'ls' --raw | audit2allow -M my-ls
+# semodule -X 300 -i my-ls.pp
+
+
+Additional Information:
+Source Context                system_u:system_r:httpd_t:s0
+Target Context                system_u:object_r:exports_t:s0
+Target Objects                /etc/exports [ file ]
+Source                        ls
+Source Path                   /usr/bin/ls
+Port                          <Unknown>
+Host                          rhel81c.sudo.net
+Source RPM Packages           
+Target RPM Packages           setup-2.12.2-2.el8.noarch
+SELinux Policy RPM            selinux-policy-3.14.3-20.el8.noarch
+Local Policy RPM              <Unknown>
+Selinux Enabled               True
+Policy Type                   targeted
+Enforcing Mode                Permissive
+Host Name                     rhel81c.sudo.net
+Platform                      Linux rhel81c.sudo.net 4.18.0-147.el8.x86_64 #1
+                              SMP Thu Sep 26 15:52:44 UTC 2019 x86_64 x86_64
+Alert Count                   2
+First Seen                    2020-01-29 23:32:20 CET
+Last Seen                     2020-01-29 23:32:33 CET
+Local ID                      d5392e8d-0e60-45e5-9774-47b04c30b36f
+
+Raw Audit Messages
+type=AVC msg=audit(1580337153.462:168): avc:  denied  { getattr } for  pid=27741 comm="ls" path="/etc/exports" dev="dm-0" ino=4204682 scontext=system_u:system_r:httpd_t:s0 tcontext=system_u:object_r:exports_t:s0 tclass=file permissive=1
+
+
+Hash: ls,httpd_t,exports_t,file,getattr
+
+SELinux is preventing /usr/bin/ls from getattr access on the file /etc/printcap.
+
+*****  Plugin catchall (100. confidence) suggests   **************************
+
+If you believe that ls should be allowed getattr access on the printcap file by default.
+Then you should report this as a bug.
+You can generate a local policy module to allow this access.
+Do
+allow this access for now by executing:
+# ausearch -c 'ls' --raw | audit2allow -M my-ls
+# semodule -X 300 -i my-ls.pp
+
+
+Additional Information:
+Source Context                system_u:system_r:httpd_t:s0
+Target Context                system_u:object_r:cupsd_rw_etc_t:s0
+Target Objects                /etc/printcap [ file ]
+Source                        ls
+Source Path                   /usr/bin/ls
+Port                          <Unknown>
+Host                          rhel81c.sudo.net
+Source RPM Packages           
+Target RPM Packages           setup-2.12.2-2.el8.noarch
+SELinux Policy RPM            selinux-policy-3.14.3-20.el8.noarch
+Local Policy RPM              <Unknown>
+Selinux Enabled               True
+Policy Type                   targeted
+Enforcing Mode                Permissive
+Host Name                     rhel81c.sudo.net
+Platform                      Linux rhel81c.sudo.net 4.18.0-147.el8.x86_64 #1
+                              SMP Thu Sep 26 15:52:44 UTC 2019 x86_64 x86_64
+Alert Count                   2
+First Seen                    2020-01-29 23:32:20 CET
+Last Seen                     2020-01-29 23:32:33 CET
+Local ID                      a9858e18-8f64-4bd3-9641-4c28e969eccf
+
+Raw Audit Messages
+type=AVC msg=audit(1580337153.463:169): avc:  denied  { getattr } for  pid=27741 comm="ls" path="/etc/printcap" dev="dm-0" ino=4204692 scontext=system_u:system_r:httpd_t:s0 tcontext=system_u:object_r:cupsd_rw_etc_t:s0 tclass=file permissive=1
+
+
+Hash: ls,httpd_t,cupsd_rw_etc_t,file,getattr
+
+SELinux is preventing /usr/bin/ls from getattr access on the file /etc/chrony.keys.
+
+*****  Plugin catchall (100. confidence) suggests   **************************
+
+If you believe that ls should be allowed getattr access on the chrony.keys file by default.
+Then you should report this as a bug.
+You can generate a local policy module to allow this access.
+Do
+allow this access for now by executing:
+# ausearch -c 'ls' --raw | audit2allow -M my-ls
+# semodule -X 300 -i my-ls.pp
+
+
+Additional Information:
+Source Context                system_u:system_r:httpd_t:s0
+Target Context                system_u:object_r:chronyd_keys_t:s0
+Target Objects                /etc/chrony.keys [ file ]
+Source                        ls
+Source Path                   /usr/bin/ls
+Port                          <Unknown>
+Host                          rhel81c.sudo.net
+Source RPM Packages           
+Target RPM Packages           chrony-3.5-1.el8.x86_64
+SELinux Policy RPM            selinux-policy-3.14.3-20.el8.noarch
+Local Policy RPM              <Unknown>
+Selinux Enabled               True
+Policy Type                   targeted
+Enforcing Mode                Permissive
+Host Name                     rhel81c.sudo.net
+Platform                      Linux rhel81c.sudo.net 4.18.0-147.el8.x86_64 #1
+                              SMP Thu Sep 26 15:52:44 UTC 2019 x86_64 x86_64
+Alert Count                   2
+First Seen                    2020-01-29 23:32:20 CET
+Last Seen                     2020-01-29 23:32:33 CET
+Local ID                      af15cd8d-f5de-4d7c-aa23-8f47cf4607c2
+
+Raw Audit Messages
+type=AVC msg=audit(1580337153.463:170): avc:  denied  { getattr } for  pid=27741 comm="ls" path="/etc/chrony.keys" dev="dm-0" ino=4731393 scontext=system_u:system_r:httpd_t:s0 tcontext=system_u:object_r:chronyd_keys_t:s0 tclass=file permissive=1
+
+
+Hash: ls,httpd_t,chronyd_keys_t,file,getattr
+
+SELinux is preventing /usr/bin/sudo from using the sys_resource capability.
+
+*****  Plugin sys_resource (37.5 confidence) suggests   **********************
+
+If you do not want processes to require capabilities to use up all the system resources on your system;
+Then you need to diagnose why your system is running out of system resources and fix the problem.
+
+According to /usr/include/linux/capability.h, sys_resource is required to:
+
+/* Override resource limits. Set resource limits. */
+/* Override quota limits. */
+/* Override reserved space on ext2 filesystem */
+/* Modify data journaling mode on ext3 filesystem (uses journaling
+   resources) */
+/* NOTE: ext2 honors fsuid when checking for resource overrides, so
+   you can override using fsuid too */
+/* Override size restrictions on IPC message queues */
+/* Allow more than 64hz interrupts from the real-time clock */
+/* Override max number of consoles on console allocation */
+/* Override max number of keymaps */
+
+Do
+fix the cause of the SYS_RESOURCE on your system.
+
+*****  Plugin catchall_boolean (30.1 confidence) suggests   ******************
+
+If you want to allow Apache to run in stickshift mode, not transition to passenger
+Then you must tell SELinux about this by enabling the 'httpd_run_stickshift' boolean.
+
+Do
+setsebool -P httpd_run_stickshift 1
+
+*****  Plugin catchall_boolean (30.1 confidence) suggests   ******************
+
+If you want to allow httpd daemon to change its resource limits
+Then you must tell SELinux about this by enabling the 'httpd_setrlimit' boolean.
+
+Do
+setsebool -P httpd_setrlimit 1
+
+*****  Plugin catchall (4.20 confidence) suggests   **************************
+
+If you believe that sudo should have the sys_resource capability by default.
+Then you should report this as a bug.
+You can generate a local policy module to allow this access.
+Do
+allow this access for now by executing:
+# ausearch -c 'sudo' --raw | audit2allow -M my-sudo
+# semodule -X 300 -i my-sudo.pp
+
+
+Additional Information:
+Source Context                system_u:system_r:httpd_t:s0
+Target Context                system_u:system_r:httpd_t:s0
+Target Objects                Unknown [ capability ]
+Source                        sudo
+Source Path                   /usr/bin/sudo
+Port                          <Unknown>
+Host                          rhel81c.sudo.net
+Source RPM Packages           sudo-1.8.25p1-7.el8.x86_64
+Target RPM Packages           
+SELinux Policy RPM            selinux-policy-3.14.3-20.el8.noarch
+Local Policy RPM              <Unknown>
+Selinux Enabled               True
+Policy Type                   targeted
+Enforcing Mode                Enforcing
+Host Name                     rhel81c.sudo.net
+Platform                      Linux rhel81c.sudo.net 4.18.0-147.el8.x86_64 #1
+                              SMP Thu Sep 26 15:52:44 UTC 2019 x86_64 x86_64
+Alert Count                   2
+First Seen                    2020-01-30 12:39:26 CET
+Last Seen                     2020-01-30 12:39:40 CET
+Local ID                      84481a8c-9c0f-4b65-87c9-e1f70681577a
+
+Raw Audit Messages
+type=AVC msg=audit(1580384380.588:922): avc:  denied  { sys_resource } for  pid=4727 comm="sudo" capability=24  scontext=system_u:system_r:httpd_t:s0 tcontext=system_u:system_r:httpd_t:s0 tclass=capability permissive=0
+
+
+type=SYSCALL msg=audit(1580384380.588:922): arch=x86_64 syscall=prlimit64 success=no exit=EPERM a0=0 a1=6 a2=7ffe759a5150 a3=0 items=0 ppid=4726 pid=4727 auid=4294967295 uid=48 gid=48 euid=0 suid=0 fsuid=0 egid=48 sgid=48 fsgid=48 tty=(none) ses=4294967295 comm=sudo exe=/usr/bin/sudo subj=system_u:system_r:httpd_t:s0 key=(null)
+
+Hash: sudo,httpd_t,httpd_t,capability,sys_resource
+
+SELinux is preventing sudo from write access on the directory ts.
+
+*****  Plugin catchall (100. confidence) suggests   **************************
+
+If you believe that sudo should be allowed write access on the ts directory by default.
+Then you should report this as a bug.
+You can generate a local policy module to allow this access.
+Do
+allow this access for now by executing:
+# ausearch -c 'sudo' --raw | audit2allow -M my-sudo
+# semodule -X 300 -i my-sudo.pp
+
+
+Additional Information:
+Source Context                system_u:system_r:httpd_t:s0
+Target Context                system_u:object_r:pam_var_run_t:s0
+Target Objects                ts [ dir ]
+Source                        sudo
+Source Path                   sudo
+Port                          <Unknown>
+Host                          rhel81c.sudo.net
+Source RPM Packages           
+Target RPM Packages           
+SELinux Policy RPM            selinux-policy-3.14.3-20.el8.noarch
+Local Policy RPM              <Unknown>
+Selinux Enabled               True
+Policy Type                   targeted
+Enforcing Mode                Enforcing
+Host Name                     rhel81c.sudo.net
+Platform                      Linux rhel81c.sudo.net 4.18.0-147.el8.x86_64 #1
+                              SMP Thu Sep 26 15:52:44 UTC 2019 x86_64 x86_64
+Alert Count                   2
+First Seen                    2020-01-30 12:39:26 CET
+Last Seen                     2020-01-30 12:39:40 CET
+Local ID                      55f94b02-3e4e-4451-b008-700c413557c4
+
+Raw Audit Messages
+type=AVC msg=audit(1580384380.592:923): avc:  denied  { write } for  pid=4727 comm="sudo" name="ts" dev="tmpfs" ino=22100 scontext=system_u:system_r:httpd_t:s0 tcontext=system_u:object_r:pam_var_run_t:s0 tclass=dir permissive=0
+
+
+Hash: sudo,httpd_t,pam_var_run_t,dir,write
+
+SELinux is preventing /usr/sbin/unix_chkpwd from read access on the file shadow.
+
+*****  Plugin catchall (100. confidence) suggests   **************************
+
+If you believe that unix_chkpwd should be allowed read access on the shadow file by default.
+Then you should report this as a bug.
+You can generate a local policy module to allow this access.
+Do
+allow this access for now by executing:
+# ausearch -c 'unix_chkpwd' --raw | audit2allow -M my-unixchkpwd
+# semodule -X 300 -i my-unixchkpwd.pp
+
+
+Additional Information:
+Source Context                system_u:system_r:httpd_t:s0
+Target Context                system_u:object_r:shadow_t:s0
+Target Objects                shadow [ file ]
+Source                        unix_chkpwd
+Source Path                   /usr/sbin/unix_chkpwd
+Port                          <Unknown>
+Host                          rhel81c.sudo.net
+Source RPM Packages           
+Target RPM Packages           
+SELinux Policy RPM            selinux-policy-3.14.3-20.el8.noarch
+Local Policy RPM              <Unknown>
+Selinux Enabled               True
+Policy Type                   targeted
+Enforcing Mode                Enforcing
+Host Name                     rhel81c.sudo.net
+Platform                      Linux rhel81c.sudo.net 4.18.0-147.el8.x86_64 #1
+                              SMP Thu Sep 26 15:52:44 UTC 2019 x86_64 x86_64
+Alert Count                   2
+First Seen                    2020-01-30 12:39:26 CET
+Last Seen                     2020-01-30 12:39:40 CET
+Local ID                      f21fbe67-8608-47bb-96fa-94159e3f0e58
+
+Raw Audit Messages
+type=AVC msg=audit(1580384380.596:924): avc:  denied  { read } for  pid=4728 comm="unix_chkpwd" name="shadow" dev="dm-0" ino=4204158 scontext=system_u:system_r:httpd_t:s0 tcontext=system_u:object_r:shadow_t:s0 tclass=file permissive=0
+
+
+Hash: unix_chkpwd,httpd_t,shadow_t,file,read
+
+SELinux is preventing rhsmcertd-worke from open access on the file /etc/dnf/modules.d/container-tools.module.
+
+*****  Plugin restorecon (92.2 confidence) suggests   ************************
+
+If you want to fix the label. 
+/etc/dnf/modules.d/container-tools.module default label should be etc_t.
+Then you can run restorecon. The access attempt may have been stopped due to insufficient permissions to access a parent directory in which case try to change the following command accordingly.
+Do
+# /sbin/restorecon -v /etc/dnf/modules.d/container-tools.module
+
+*****  Plugin catchall_boolean (7.83 confidence) suggests   ******************
+
+If you want to allow all daemons to write corefiles to /
+Then you must tell SELinux about this by enabling the 'daemons_dump_core' boolean.
+
+Do
+setsebool -P daemons_dump_core 1
+
+*****  Plugin catchall (1.41 confidence) suggests   **************************
+
+If you believe that rhsmcertd-worke should be allowed open access on the container-tools.module file by default.
+Then you should report this as a bug.
+You can generate a local policy module to allow this access.
+Do
+allow this access for now by executing:
+# ausearch -c 'rhsmcertd-worke' --raw | audit2allow -M my-rhsmcertdworke
+# semodule -X 300 -i my-rhsmcertdworke.pp
+
+
+Additional Information:
+Source Context                system_u:system_r:rhsmcertd_t:s0
+Target Context                system_u:object_r:root_t:s0
+Target Objects                /etc/dnf/modules.d/container-tools.module [ file ]
+Source                        rhsmcertd-worke
+Source Path                   rhsmcertd-worke
+Port                          <Unknown>
+Host                          rhel81c.sudo.net
+Source RPM Packages           
+Target RPM Packages           
+SELinux Policy RPM            selinux-policy-3.14.3-20.el8.noarch
+Local Policy RPM              <Unknown>
+Selinux Enabled               True
+Policy Type                   targeted
+Enforcing Mode                Permissive
+Host Name                     rhel81c.sudo.net
+Platform                      Linux rhel81c.sudo.net 4.18.0-147.el8.x86_64 #1
+                              SMP Thu Sep 26 15:52:44 UTC 2019 x86_64 x86_64
+Alert Count                   3
+First Seen                    2020-01-29 23:39:46 CET
+Last Seen                     2020-01-31 15:10:31 CET
+Local ID                      c3407a40-e7b3-4b7d-9059-df4ebf30dc20
+
+Raw Audit Messages
+type=AVC msg=audit(1580479831.232:2464): avc:  denied  { open } for  pid=8224 comm="rhsmcertd-worke" path="/etc/dnf/modules.d/container-tools.module" dev="dm-0" ino=12583043 scontext=system_u:system_r:rhsmcertd_t:s0 tcontext=system_u:object_r:root_t:s0 tclass=file permissive=1
+
+
+Hash: rhsmcertd-worke,rhsmcertd_t,root_t,file,open
+
+SELinux is preventing /usr/libexec/platform-python3.6 from using the dac_override capability.
+
+*****  Plugin dac_override (91.4 confidence) suggests   **********************
+
+If you want to help identify if domain needs this access or you have a file with the wrong permissions on your system
+Then turn on full auditing to get path information about the offending file and generate the error again.
+Do
+
+Turn on full auditing
+# auditctl -w /etc/shadow -p w
+Try to recreate AVC. Then execute
+# ausearch -m avc -ts recent
+If you see PATH record check ownership/permissions on file, and fix it,
+otherwise report as a bugzilla.
+
+*****  Plugin catchall (9.59 confidence) suggests   **************************
+
+If you believe that platform-python3.6 should have the dac_override capability by default.
+Then you should report this as a bug.
+You can generate a local policy module to allow this access.
+Do
+allow this access for now by executing:
+# ausearch -c 'rhsmd' --raw | audit2allow -M my-rhsmd
+# semodule -X 300 -i my-rhsmd.pp
+
+
+Additional Information:
+Source Context                system_u:system_r:rhsmcertd_t:s0-s0:c0.c1023
+Target Context                system_u:system_r:rhsmcertd_t:s0-s0:c0.c1023
+Target Objects                Unknown [ capability ]
+Source                        rhsmd
+Source Path                   /usr/libexec/platform-python3.6
+Port                          <Unknown>
+Host                          rhel81c.sudo.net
+Source RPM Packages           
+Target RPM Packages           
+SELinux Policy RPM            selinux-policy-3.14.3-20.el8.noarch
+Local Policy RPM              <Unknown>
+Selinux Enabled               True
+Policy Type                   targeted
+Enforcing Mode                Enforcing
+Host Name                     rhel81c.sudo.net
+Platform                      Linux rhel81c.sudo.net 4.18.0-147.el8.x86_64 #1
+                              SMP Thu Sep 26 15:52:44 UTC 2019 x86_64 x86_64
+Alert Count                   32
+First Seen                    2019-11-20 21:41:55 CET
+Last Seen                     2020-02-10 09:48:51 CET
+Local ID                      e7959d04-1ac1-4c8c-84b9-56141148ca78
+
+Raw Audit Messages
+type=AVC msg=audit(1581324531.318:2182): avc:  denied  { dac_override } for  pid=8482 comm="rhsmd" capability=1  scontext=system_u:system_r:rhsmcertd_t:s0-s0:c0.c1023 tcontext=system_u:system_r:rhsmcertd_t:s0-s0:c0.c1023 tclass=capability permissive=0
+
+
+Hash: rhsmd,rhsmcertd_t,rhsmcertd_t,capability,dac_override
+
+SELinux is preventing rpm from map access on the file /var/lib/rpm/Name.
+
+*****  Plugin catchall_boolean (89.3 confidence) suggests   ******************
+
+If you want to allow any process to mmap any file on system with attribute file_type.
+Then you must tell SELinux about this by enabling the 'domain_can_mmap_files' boolean.
+
+Do
+setsebool -P domain_can_mmap_files 1
+
+*****  Plugin catchall (11.6 confidence) suggests   **************************
+
+If you believe that rpm should be allowed map access on the Name file by default.
+Then you should report this as a bug.
+You can generate a local policy module to allow this access.
+Do
+allow this access for now by executing:
+# ausearch -c 'rpm' --raw | audit2allow -M my-rpm
+# semodule -X 300 -i my-rpm.pp
+
+
+Additional Information:
+Source Context                system_u:system_r:httpd_t:s0
+Target Context                system_u:object_r:rpm_var_lib_t:s0
+Target Objects                /var/lib/rpm/Name [ file ]
+Source                        rpm
+Source Path                   rpm
+Port                          <Unknown>
+Host                          rhel81c.sudo.net
+Source RPM Packages           rpm-4.14.2-25.el8.x86_64
+Target RPM Packages           rpm-4.14.2-25.el8.x86_64
+SELinux Policy RPM            selinux-policy-3.14.3-20.el8.noarch
+Local Policy RPM              <Unknown>
+Selinux Enabled               True
+Policy Type                   targeted
+Enforcing Mode                Permissive
+Host Name                     rhel81c.sudo.net
+Platform                      Linux rhel81c.sudo.net 4.18.0-147.el8.x86_64 #1
+                              SMP Thu Sep 26 15:52:44 UTC 2019 x86_64 x86_64
+Alert Count                   11
+First Seen                    2020-01-29 23:42:16 CET
+Last Seen                     2020-03-09 13:48:35 CET
+Local ID                      8cf35fe8-db8b-4444-b416-5d37f7c9cd6b
+
+Raw Audit Messages
+type=AVC msg=audit(1583758115.781:84): avc:  denied  { map } for  pid=1983 comm="rpm" path="/var/lib/rpm/Name" dev="dm-0" ino=4194450 scontext=system_u:system_r:httpd_t:s0 tcontext=system_u:object_r:rpm_var_lib_t:s0 tclass=file permissive=1
+
+
+type=SYSCALL msg=audit(1583758115.781:84): arch=x86_64 syscall=mmap success=yes exit=140235155161088 a0=0 a1=a000 a2=1 a3=2 items=0 ppid=1982 pid=1983 auid=4294967295 uid=48 gid=48 euid=48 suid=48 fsuid=48 egid=48 sgid=48 fsgid=48 tty=(none) ses=4294967295 comm=rpm exe=/usr/bin/rpm subj=system_u:system_r:httpd_t:s0 key=(null)
+
+Hash: rpm,httpd_t,rpm_var_lib_t,file,map
+
+SELinux is preventing /usr/libexec/platform-python3.6 from using the dac_override capability.
+
+*****  Plugin dac_override (91.4 confidence) suggests   **********************
+
+If you want to help identify if domain needs this access or you have a file with the wrong permissions on your system
+Then turn on full auditing to get path information about the offending file and generate the error again.
+Do
+
+Turn on full auditing
+# auditctl -w /etc/shadow -p w
+Try to recreate AVC. Then execute
+# ausearch -m avc -ts recent
+If you see PATH record check ownership/permissions on file, and fix it,
+otherwise report as a bugzilla.
+
+*****  Plugin catchall (9.59 confidence) suggests   **************************
+
+If you believe that platform-python3.6 should have the dac_override capability by default.
+Then you should report this as a bug.
+You can generate a local policy module to allow this access.
+Do
+allow this access for now by executing:
+# ausearch -c 'rhsmcertd-worke' --raw | audit2allow -M my-rhsmcertdworke
+# semodule -X 300 -i my-rhsmcertdworke.pp
+
+
+Additional Information:
+Source Context                system_u:system_r:rhsmcertd_t:s0
+Target Context                system_u:system_r:rhsmcertd_t:s0
+Target Objects                Unknown [ capability ]
+Source                        rhsmcertd-worke
+Source Path                   /usr/libexec/platform-python3.6
+Port                          <Unknown>
+Host                          rhel81c.sudo.net
+Source RPM Packages           platform-python-3.6.8-15.1.el8.x86_64
+Target RPM Packages           
+SELinux Policy RPM            selinux-policy-3.14.3-20.el8.noarch
+Local Policy RPM              <Unknown>
+Selinux Enabled               True
+Policy Type                   targeted
+Enforcing Mode                Enforcing
+Host Name                     rhel81c.sudo.net
+Platform                      Linux rhel81c.sudo.net 4.18.0-147.el8.x86_64 #1
+                              SMP Thu Sep 26 15:52:44 UTC 2019 x86_64 x86_64
+Alert Count                   260
+First Seen                    2019-11-19 08:56:16 CET
+Last Seen                     2020-03-11 08:30:19 CET
+Local ID                      b8e47331-1f55-4e5e-85fc-c2d4c7045fbc
+
+Raw Audit Messages
+type=AVC msg=audit(1583911819.422:693): avc:  denied  { dac_override } for  pid=5001 comm="rhsmcertd-worke" capability=1  scontext=system_u:system_r:rhsmcertd_t:s0 tcontext=system_u:system_r:rhsmcertd_t:s0 tclass=capability permissive=0
+
+
+type=SYSCALL msg=audit(1583911819.422:693): arch=x86_64 syscall=openat success=no exit=EACCES a0=ffffff9c a1=7f4dd6498b78 a2=800c1 a3=1a4 items=0 ppid=936 pid=5001 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm=rhsmcertd-worke exe=/usr/libexec/platform-python3.6 subj=system_u:system_r:rhsmcertd_t:s0 key=(null)
+
+Hash: rhsmcertd-worke,rhsmcertd_t,rhsmcertd_t,capability,dac_override
+
+SELinux is preventing /usr/libexec/platform-python3.6 from getattr access on the file /usr/sbin/kpatch.
+
+*****  Plugin catchall (100. confidence) suggests   **************************
+
+If you believe that platform-python3.6 should be allowed getattr access on the kpatch file by default.
+Then you should report this as a bug.
+You can generate a local policy module to allow this access.
+Do
+allow this access for now by executing:
+# ausearch -c 'rhsmcertd-worke' --raw | audit2allow -M my-rhsmcertdworke
+# semodule -X 300 -i my-rhsmcertdworke.pp
+
+
+Additional Information:
+Source Context                system_u:system_r:rhsmcertd_t:s0
+Target Context                system_u:object_r:kpatch_exec_t:s0
+Target Objects                /usr/sbin/kpatch [ file ]
+Source                        rhsmcertd-worke
+Source Path                   /usr/libexec/platform-python3.6
+Port                          <Unknown>
+Host                          rhel81c.sudo.net
+Source RPM Packages           platform-python-3.6.8-31.el8.x86_64
+Target RPM Packages           kpatch-0.6.1-6.el8.noarch
+SELinux Policy RPM            selinux-policy-targeted-3.14.3-54.el8_3.4.noarch
+Local Policy RPM              selinux-policy-targeted-3.14.3-54.el8_3.4.noarch
+Selinux Enabled               True
+Policy Type                   targeted
+Enforcing Mode                Enforcing
+Host Name                     rhel81c.sudo.net
+Platform                      Linux rhel81c.sudo.net
+                              4.18.0-240.22.1.el8_3.x86_64 #1 SMP Thu Mar 25
+                              14:36:04 EDT 2021 x86_64 x86_64
+Alert Count                   15
+First Seen                    2021-04-27 16:07:46 CEST
+Last Seen                     2021-05-04 15:23:10 CEST
+Local ID                      b6daadca-3e26-4d6b-9181-8dbb1f5939b3
+
+Raw Audit Messages
+type=AVC msg=audit(1620134590.913:202): avc:  denied  { getattr } for  pid=3383 comm="rhsmcertd-worke" path="/usr/sbin/kpatch" dev="dm-0" ino=889277 scontext=system_u:system_r:rhsmcertd_t:s0 tcontext=system_u:object_r:kpatch_exec_t:s0 tclass=file permissive=0
+
+
+type=SYSCALL msg=audit(1620134590.913:202): arch=x86_64 syscall=stat success=no exit=EACCES a0=7f64f726ae18 a1=7fff4a1ba400 a2=7fff4a1ba400 a3=1 items=0 ppid=971 pid=3383 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm=rhsmcertd-worke exe=/usr/libexec/platform-python3.6 subj=system_u:system_r:rhsmcertd_t:s0 key=(null)
+
+Hash: rhsmcertd-worke,rhsmcertd_t,kpatch_exec_t,file,getattr
+
+SELinux is preventing rhsmcertd-worke from read access on the file virt.module.
+
+*****  Plugin catchall_boolean (89.3 confidence) suggests   ******************
+
+If you want to allow all daemons to write corefiles to /
+Then you must tell SELinux about this by enabling the 'daemons_dump_core' boolean.
+
+Do
+setsebool -P daemons_dump_core 1
+
+*****  Plugin catchall (11.6 confidence) suggests   **************************
+
+If you believe that rhsmcertd-worke should be allowed read access on the virt.module file by default.
+Then you should report this as a bug.
+You can generate a local policy module to allow this access.
+Do
+allow this access for now by executing:
+# ausearch -c 'rhsmcertd-worke' --raw | audit2allow -M my-rhsmcertdworke
+# semodule -X 300 -i my-rhsmcertdworke.pp
+
+
+Additional Information:
+Source Context                system_u:system_r:rhsmcertd_t:s0
+Target Context                system_u:object_r:root_t:s0
+Target Objects                virt.module [ file ]
+Source                        rhsmcertd-worke
+Source Path                   rhsmcertd-worke
+Port                          <Unknown>
+Host                          rhel81c.sudo.net
+Source RPM Packages           
+Target RPM Packages           
+SELinux Policy RPM            selinux-policy-targeted-3.14.3-54.el8_3.4.noarch
+Local Policy RPM              selinux-policy-targeted-3.14.3-54.el8_3.4.noarch
+Selinux Enabled               True
+Policy Type                   targeted
+Enforcing Mode                Enforcing
+Host Name                     rhel81c.sudo.net
+Platform                      Linux rhel81c.sudo.net
+                              4.18.0-240.22.1.el8_3.x86_64 #1 SMP Thu Mar 25
+                              14:36:04 EDT 2021 x86_64 x86_64
+Alert Count                   414
+First Seen                    2019-11-20 21:45:03 CET
+Last Seen                     2021-05-04 15:23:13 CEST
+Local ID                      1bde81c5-f941-4b8f-a128-a732569bd09a
+
+Raw Audit Messages
+type=AVC msg=audit(1620134593.268:205): avc:  denied  { read } for  pid=3383 comm="rhsmcertd-worke" name="virt.module" dev="dm-0" ino=12583045 scontext=system_u:system_r:rhsmcertd_t:s0 tcontext=system_u:object_r:root_t:s0 tclass=file permissive=0
+
+
+Hash: rhsmcertd-worke,rhsmcertd_t,root_t,file,read
+
+SELinux is preventing /usr/bin/lsmd from getattr access on the file /usr/bin/untrusted.
+
+*****  Plugin catchall (100. confidence) suggests   **************************
+
+If you believe that lsmd should be allowed getattr access on the untrusted file by default.
+Then you should report this as a bug.
+You can generate a local policy module to allow this access.
+Do
+allow this access for now by executing:
+# ausearch -c 'lsmd' --raw | audit2allow -M my-lsmd
+# semodule -X 300 -i my-lsmd.pp
+
+
+Additional Information:
+Source Context                system_u:system_r:lsmd_t:s0
+Target Context                system_u:object_r:untrusted_rw_t:s0
+Target Objects                /usr/bin/untrusted [ file ]
+Source                        lsmd
+Source Path                   /usr/bin/lsmd
+Port                          <Unknown>
+Host                          rhel81c.sudo.net
+Source RPM Packages           libstoragemgmt-1.8.3-2.el8.x86_64
+Target RPM Packages           
+SELinux Policy RPM            selinux-policy-targeted-3.14.3-54.el8_3.4.noarch
+Local Policy RPM              selinux-policy-targeted-3.14.3-54.el8_3.4.noarch
+Selinux Enabled               True
+Policy Type                   targeted
+Enforcing Mode                Enforcing
+Host Name                     rhel81c.sudo.net
+Platform                      Linux rhel81c.sudo.net
+                              4.18.0-240.22.1.el8_3.x86_64 #1 SMP Thu Mar 25
+                              14:36:04 EDT 2021 x86_64 x86_64
+Alert Count                   41
+First Seen                    2020-02-07 09:11:48 CET
+Last Seen                     2021-05-31 15:21:59 CEST
+Local ID                      0e9040f6-846f-4070-a0b6-cec8b7bd6bc1
+
+Raw Audit Messages
+type=AVC msg=audit(1622467319.361:20): avc:  denied  { getattr } for  pid=895 comm="lsmd" path="/usr/bin/untrusted" dev="dm-0" ino=14064808 scontext=system_u:system_r:lsmd_t:s0 tcontext=system_u:object_r:untrusted_rw_t:s0 tclass=file permissive=0
+
+
+type=SYSCALL msg=audit(1622467319.361:20): arch=x86_64 syscall=lstat success=no exit=EACCES a0=55a65ca35800 a1=7ffe6ff04ee0 a2=7ffe6ff04ee0 a3=0 items=0 ppid=1 pid=895 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm=lsmd exe=/usr/bin/lsmd subj=system_u:system_r:lsmd_t:s0 key=(null)
+
+Hash: lsmd,lsmd_t,untrusted_rw_t,file,getattr
+
+SELinux is preventing rhsmcertd-worke from node_bind access on the tcp_socket port None.
+
+*****  Plugin catchall_boolean (89.3 confidence) suggests   ******************
+
+If you want to allow system to run with NIS
+Then you must tell SELinux about this by enabling the 'nis_enabled' boolean.
+
+Do
+setsebool -P nis_enabled 1
+
+*****  Plugin catchall (11.6 confidence) suggests   **************************
+
+If you believe that rhsmcertd-worke should be allowed node_bind access on the port None tcp_socket by default.
+Then you should report this as a bug.
+You can generate a local policy module to allow this access.
+Do
+allow this access for now by executing:
+# ausearch -c 'rhsmcertd-worke' --raw | audit2allow -M my-rhsmcertdworke
+# semodule -X 300 -i my-rhsmcertdworke.pp
+
+
+Additional Information:
+Source Context                system_u:system_r:rhsmcertd_t:s0
+Target Context                system_u:object_r:node_t:s0
+Target Objects                port None [ tcp_socket ]
+Source                        rhsmcertd-worke
+Source Path                   rhsmcertd-worke
+Port                          <Unknown>
+Host                          rhel81c.sudo.net
+Source RPM Packages           platform-python-3.6.8-31.el8.x86_64
+Target RPM Packages           
+SELinux Policy RPM            selinux-policy-targeted-3.14.3-54.el8_3.4.noarch
+Local Policy RPM              selinux-policy-targeted-3.14.3-54.el8_3.4.noarch
+Selinux Enabled               True
+Policy Type                   targeted
+Enforcing Mode                Enforcing
+Host Name                     rhel81c.sudo.net
+Platform                      Linux rhel81c.sudo.net
+                              4.18.0-240.22.1.el8_3.x86_64 #1 SMP Thu Mar 25
+                              14:36:04 EDT 2021 x86_64 x86_64
+Alert Count                   38
+First Seen                    2021-04-27 15:16:50 CEST
+Last Seen                     2021-05-31 17:40:59 CEST
+Local ID                      3710e9e1-ae55-4c52-9333-d11fde995f6d
+
+Raw Audit Messages
+type=AVC msg=audit(1622475659.796:355): avc:  denied  { node_bind } for  pid=2377 comm="rhsmcertd-worke" saddr=::1 scontext=system_u:system_r:rhsmcertd_t:s0 tcontext=system_u:object_r:node_t:s0 tclass=tcp_socket permissive=0
+
+
+type=SYSCALL msg=audit(1622475659.796:355): arch=x86_64 syscall=bind success=no exit=EACCES a0=7 a1=7ffd39d5a8f0 a2=1c a3=31 items=0 ppid=961 pid=2377 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm=rhsmcertd-worke exe=/usr/libexec/platform-python3.6 subj=system_u:system_r:rhsmcertd_t:s0 key=(null)
+
+Hash: rhsmcertd-worke,rhsmcertd_t,node_t,tcp_socket,node_bind
+

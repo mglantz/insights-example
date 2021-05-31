@@ -1,0 +1,1 @@
+{"name": "insights.specs.Specs.sysctl", "exec_time": 1.9550323486328125e-05, "errors": [], "results": {"type": "insights.core.spec_factory.CommandOutputProvider", "object": {"rc": null, "cmd": "/sbin/sysctl -a", "args": null, "relative_path": "insights_commands/sysctl_-a"}}, "ser_time": 0.015199422836303711}

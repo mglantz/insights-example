@@ -1,0 +1,1 @@
+{"name": "insights.specs.Specs.httpd_V", "exec_time": 3.528594970703125e-05, "errors": [], "results": [{"type": "insights.core.spec_factory.CommandOutputProvider", "object": {"rc": null, "cmd": "/usr/sbin/httpd -V", "args": "/usr/sbin/httpd", "relative_path": "insights_commands/httpd_-V"}}], "ser_time": 0.05453133583068848}

@@ -1,0 +1,1 @@
+{"name": "insights.specs.Specs.lspci_vmmkn", "exec_time": 2.193450927734375e-05, "errors": [], "results": {"type": "insights.core.spec_factory.CommandOutputProvider", "object": {"rc": null, "cmd": "/sbin/lspci -vmmkn", "args": null, "relative_path": "insights_commands/lspci_-vmmkn"}}, "ser_time": 0.010001659393310547}

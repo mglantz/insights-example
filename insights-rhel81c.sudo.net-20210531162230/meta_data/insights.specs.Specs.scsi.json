@@ -1,0 +1,1 @@
+{"name": "insights.specs.Specs.scsi", "exec_time": 2.002716064453125e-05, "errors": [], "results": {"type": "insights.core.spec_factory.TextFileProvider", "object": {"relative_path": "proc/scsi/scsi", "rc": null}}, "ser_time": 0.0022678375244140625}

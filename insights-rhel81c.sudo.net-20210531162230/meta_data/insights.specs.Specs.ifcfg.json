@@ -1,0 +1,1 @@
+{"name": "insights.specs.Specs.ifcfg", "exec_time": 1.811981201171875e-05, "errors": [], "results": [{"type": "insights.core.spec_factory.TextFileProvider", "object": {"relative_path": "etc/sysconfig/network-scripts/ifcfg-enp1s0", "rc": null}}], "ser_time": 0.0021507740020751953}

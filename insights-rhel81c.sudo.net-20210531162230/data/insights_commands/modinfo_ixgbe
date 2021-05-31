@@ -1,0 +1,85 @@
+filename:       /lib/modules/4.18.0-240.22.1.el8_3.x86_64/kernel/drivers/net/ethernet/intel/ixgbe/ixgbe.ko.xz
+version:        5.1.0-k-rh8.2.0
+license:        GPL v2
+description:    Intel(R) 10 Gigabit PCI Express Network Driver
+author:         Intel Corporation, <linux.nics@intel.com>
+rhelversion:    8.3
+srcversion:     525452BB6E4B60467875FAD
+alias:          pci:v00008086d000015E5sv*sd*bc*sc*i*
+alias:          pci:v00008086d000015E4sv*sd*bc*sc*i*
+alias:          pci:v00008086d000015CEsv*sd*bc*sc*i*
+alias:          pci:v00008086d000015C8sv*sd*bc*sc*i*
+alias:          pci:v00008086d000015C7sv*sd*bc*sc*i*
+alias:          pci:v00008086d000015C6sv*sd*bc*sc*i*
+alias:          pci:v00008086d000015C4sv*sd*bc*sc*i*
+alias:          pci:v00008086d000015C3sv*sd*bc*sc*i*
+alias:          pci:v00008086d000015C2sv*sd*bc*sc*i*
+alias:          pci:v00008086d000015AEsv*sd*bc*sc*i*
+alias:          pci:v00008086d000015ACsv*sd*bc*sc*i*
+alias:          pci:v00008086d000015ADsv*sd*bc*sc*i*
+alias:          pci:v00008086d000015ABsv*sd*bc*sc*i*
+alias:          pci:v00008086d000015B0sv*sd*bc*sc*i*
+alias:          pci:v00008086d000015AAsv*sd*bc*sc*i*
+alias:          pci:v00008086d000015D1sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001563sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001560sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000154Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00001557sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001558sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000154Fsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000154Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d00001528sv*sd*bc*sc*i*
+alias:          pci:v00008086d000010F8sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000151Csv*sd*bc*sc*i*
+alias:          pci:v00008086d00001529sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000152Asv*sd*bc*sc*i*
+alias:          pci:v00008086d000010F9sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001514sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001507sv*sd*bc*sc*i*
+alias:          pci:v00008086d000010FBsv*sd*bc*sc*i*
+alias:          pci:v00008086d00001517sv*sd*bc*sc*i*
+alias:          pci:v00008086d000010FCsv*sd*bc*sc*i*
+alias:          pci:v00008086d000010F7sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001508sv*sd*bc*sc*i*
+alias:          pci:v00008086d000010DBsv*sd*bc*sc*i*
+alias:          pci:v00008086d000010F4sv*sd*bc*sc*i*
+alias:          pci:v00008086d000010E1sv*sd*bc*sc*i*
+alias:          pci:v00008086d000010F1sv*sd*bc*sc*i*
+alias:          pci:v00008086d000010ECsv*sd*bc*sc*i*
+alias:          pci:v00008086d000010DDsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000150Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d000010C8sv*sd*bc*sc*i*
+alias:          pci:v00008086d000010C7sv*sd*bc*sc*i*
+alias:          pci:v00008086d000010C6sv*sd*bc*sc*i*
+alias:          pci:v00008086d000010B6sv*sd*bc*sc*i*
+depends:        mdio,dca
+intree:         Y
+name:           ixgbe
+vermagic:       4.18.0-240.22.1.el8_3.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        4C:11:1C:85:23:3F:6B:3A:F5:00:1E:A6:FD:81:AE:8B:EA:D7:B3:B1
+sig_hashalgo:   sha256
+signature:      9C:50:40:9E:55:59:06:F0:66:1B:94:27:5E:25:3D:A0:E7:4E:4A:0F:
+		1C:78:1C:7C:BA:BC:20:BE:A8:4C:CA:9D:83:57:6E:57:DA:9C:A0:EC:
+		9C:B8:61:C6:87:DC:DC:FD:1C:FF:B2:C0:08:7A:6F:E1:16:4B:DD:DD:
+		9A:C7:C8:A6:3D:15:A3:DB:B5:91:9B:5B:EA:BC:C0:49:7A:5B:0C:35:
+		3D:54:89:1F:65:2E:89:3B:C1:C4:7A:AC:A6:E6:B8:B0:10:AA:F5:F6:
+		46:D2:75:B8:79:17:58:29:1F:4D:E2:68:8D:25:E2:48:66:49:19:21:
+		E3:B8:A5:24:F3:89:F1:C0:5B:5D:0D:49:C6:3B:59:00:9E:E1:BD:3D:
+		20:A3:DD:40:A6:83:D6:8B:5E:79:96:28:47:AD:61:AE:CB:C6:45:09:
+		6F:63:5F:6C:A6:C4:0B:CF:13:EA:80:0C:59:83:53:21:ED:B5:21:AE:
+		06:66:4D:D3:0B:AD:55:47:94:B6:11:96:D9:D0:DC:AF:AB:8A:9F:7C:
+		C2:B2:D7:66:00:F5:1C:0A:57:6B:AE:10:26:4E:34:D4:06:2D:67:EC:
+		79:96:76:5E:53:73:0F:DC:5A:76:AB:1F:ED:72:60:13:6E:AD:D2:33:
+		08:C0:DA:9F:E2:DF:6F:11:8C:3E:21:86:D2:F4:70:46:38:6B:59:68:
+		95:1F:CF:0B:3F:B3:10:A4:2A:C5:E0:21:21:7B:42:CE:49:F7:E3:1F:
+		28:04:C7:40:DC:9D:74:E5:9B:7D:14:91:14:0D:57:D1:58:C8:34:FA:
+		E3:9F:61:21:D5:0C:C7:2F:FA:4A:94:FE:7D:D3:F2:66:58:DE:BD:D5:
+		A7:C7:D2:FB:E3:AB:A7:1C:73:80:C2:CE:09:F3:D5:9D:2D:55:59:46:
+		B0:A5:14:2D:84:CD:61:E3:A8:20:A9:AE:B6:CA:BD:75:8A:D7:86:4F:
+		89:D2:48:7A:F0:29:F2:57:1F:31:8D:D0:55:CD:0D:76:B2:3B:68:00:
+		D6:59:DA:3D
+parm:           max_vfs:Maximum number of virtual functions to allocate per physical function - default is zero and maximum value is 63. (Deprecated) (uint)
+parm:           allow_unsupported_sfp:Allow unsupported and untested SFP+ modules on 82599-based adapters (uint)
+parm:           debug:Debug level (0=none,...,16=all) (int)

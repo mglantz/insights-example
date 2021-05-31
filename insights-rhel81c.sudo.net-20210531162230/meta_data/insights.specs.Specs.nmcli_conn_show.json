@@ -1,0 +1,1 @@
+{"name": "insights.specs.Specs.nmcli_conn_show", "exec_time": 1.6450881958007812e-05, "errors": [], "results": {"type": "insights.core.spec_factory.CommandOutputProvider", "object": {"rc": null, "cmd": "/usr/bin/nmcli conn show", "args": null, "relative_path": "insights_commands/nmcli_conn_show"}}, "ser_time": 0.016084671020507812}

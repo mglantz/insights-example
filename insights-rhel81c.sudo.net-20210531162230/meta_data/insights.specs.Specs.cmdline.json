@@ -1,0 +1,1 @@
+{"name": "insights.specs.Specs.cmdline", "exec_time": 2.3603439331054688e-05, "errors": [], "results": {"type": "insights.core.spec_factory.TextFileProvider", "object": {"relative_path": "proc/cmdline", "rc": null}}, "ser_time": 0.00347900390625}

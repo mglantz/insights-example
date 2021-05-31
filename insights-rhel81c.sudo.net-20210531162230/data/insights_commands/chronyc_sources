@@ -1,0 +1,7 @@
+210 Number of sources = 4
+MS Name/IP address         Stratum Poll Reach LastRx Last sample               
+===============================================================================
+^- ntp-d.0x5e.se                 2   8   377   179  +2313us[+2233us] +/-   30ms
+^- ntp2.flashdance.cx            2   8   377    53   -990us[ -990us] +/-   46ms
+^* time.cloudflare.com           3   8   377   117   -443us[ -526us] +/- 3513us
+^- ntp1.vmar.se                  2   8   377   177    -66us[ -145us] +/-   36ms
