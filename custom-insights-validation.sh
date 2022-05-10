@@ -6,7 +6,7 @@
 
 validate_content()
 {
-	insights_dir=$(find /tmp/* -maxdepth 0 -type d)
+	insights_dir=$(find /tmp/insigh* -maxdepth 0 -type d)
 	grep -r "[1-2][0-9][0-9][0-9][0-9][0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]" $insights_dir
 	grep -r "Magnus" /tmp/insights* $insights_dir
 }
